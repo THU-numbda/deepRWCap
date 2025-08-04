@@ -117,7 +117,7 @@ make -j$(nproc)
 
 ## DeepRWCap
 
-
+TODO: Location of the dnnsolver library. Compile again.
 
 
 ## GGFT

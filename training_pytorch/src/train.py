@@ -31,7 +31,7 @@ def compute_relative_l2_error(prediction, target):
 def train_model_improved(
     model, train_loader, val_loader,
     device='cuda', epochs=50, optimizer_params=None,
-    target_face=None, log_dir='../runs', model_save_dir='/data/hector/trained_models'):
+    target_face=None, log_dir='../runs', model_save_dir='./trained_models'):
 
     model_type = detect_model_type(model)
     run_name   = f'{model.name}_{time.strftime("%Y%m%d-%H%M%S")}'
