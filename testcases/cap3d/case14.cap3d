@@ -1,0 +1,4553 @@
+//CCI2CAP3D VERSION: 9f66185
+//START TIME: 2024-12-17 15:13:17.727
+<cap3d>
+<window>
+	name test_via
+	v1(-3.185000,-1.395000,-0.100000)
+	v2(8.325000,9.195000,4.983000)
+</window>
+<plate_medium>
+	name SUB_FILL
+	diel 1.000000
+	z_top 0.000000
+</plate_medium>
+<plate_medium>
+	name FOX_C
+	diel 3.900000
+	z_top 0.157000
+</plate_medium>
+<plate_medium>
+	name FOX_B
+	diel 3.900000
+	z_top 0.185000
+</plate_medium>
+<plate_medium>
+	name FOX_A
+	diel 3.900000
+	z_top 0.250000
+</plate_medium>
+<plate_medium>
+	name GOX
+	diel 4.060000
+	z_top 0.251400
+</plate_medium>
+<plate_medium>
+	name LINER
+	diel 5.800000
+	z_top 0.267400
+</plate_medium>
+<plate_medium>
+	name ILD_C
+	diel 4.060000
+	z_top 0.308000
+</plate_medium>
+<plate_medium>
+	name ILD_B
+	diel 4.060000
+	z_top 0.373000
+</plate_medium>
+<plate_medium>
+	name ILD_A
+	diel 4.060000
+	z_top 0.400000
+</plate_medium>
+<plate_medium>
+	name IMD1a
+	diel 4.300000
+	z_top 0.416000
+</plate_medium>
+<plate_medium>
+	name IMD1b
+	diel 2.630000
+	z_top 0.461000
+</plate_medium>
+<plate_medium>
+	name IMD1c
+	diel 5.500000
+	z_top 0.488000
+</plate_medium>
+<plate_medium>
+	name IMD1d
+	diel 4.300000
+	z_top 0.513000
+</plate_medium>
+<plate_medium>
+	name IMD2a
+	diel 2.630000
+	z_top 0.548000
+</plate_medium>
+<plate_medium>
+	name IMD2b
+	diel 2.630000
+	z_top 0.628000
+</plate_medium>
+<plate_medium>
+	name IMD2c
+	diel 5.500000
+	z_top 0.655000
+</plate_medium>
+<plate_medium>
+	name IMD2d
+	diel 4.300000
+	z_top 0.680000
+</plate_medium>
+<plate_medium>
+	name IMD3a
+	diel 2.630000
+	z_top 0.715000
+</plate_medium>
+<plate_medium>
+	name IMD3b
+	diel 2.630000
+	z_top 0.805000
+</plate_medium>
+<plate_medium>
+	name IMD3c
+	diel 5.500000
+	z_top 0.830000
+</plate_medium>
+<plate_medium>
+	name IMD3d
+	diel 4.300000
+	z_top 0.853000
+</plate_medium>
+<plate_medium>
+	name IMD4a
+	diel 2.630000
+	z_top 0.890000
+</plate_medium>
+<plate_medium>
+	name IMD4b
+	diel 2.630000
+	z_top 0.980000
+</plate_medium>
+<plate_medium>
+	name IMD4c
+	diel 5.500000
+	z_top 1.005000
+</plate_medium>
+<plate_medium>
+	name IMD4d
+	diel 4.300000
+	z_top 1.028000
+</plate_medium>
+<plate_medium>
+	name PASS3a
+	diel 4.500000
+	z_top 1.108000
+</plate_medium>
+<plate_medium>
+	name PASS3b
+	diel 4.800000
+	z_top 2.208000
+</plate_medium>
+<plate_medium>
+	name PASS4
+	diel 7.300000
+	z_top 3.008000
+</plate_medium>
+<plate_medium>
+	name TOP_FILL
+	diel 1.000000
+	z_top 4.983000
+</plate_medium>
+<medium>
+	name rect_conf_0_0
+	<block>
+		layer 0
+		basepoint(1.786000,3.326000,0.251400)
+		v1(0.128000,0,0)
+		v2(0,0.188000,0)
+		hvector(0,0,0.041600)
+	</block>
+	diel 5.800000
+</medium>
+<medium>
+	name rect_conf_0_1
+	<block>
+		layer 0
+		basepoint(1.786000,4.286000,0.251400)
+		v1(0.128000,0,0)
+		v2(0,0.188000,0)
+		hvector(0,0,0.041600)
+	</block>
+	diel 5.800000
+</medium>
+<medium>
+	name rect_conf_0_2
+	<block>
+		layer 0
+		basepoint(2.146000,3.326000,0.251400)
+		v1(0.128000,0,0)
+		v2(0,0.188000,0)
+		hvector(0,0,0.041600)
+	</block>
+	diel 5.800000
+</medium>
+<medium>
+	name rect_conf_0_3
+	<block>
+		layer 0
+		basepoint(2.146000,4.286000,0.251400)
+		v1(0.128000,0,0)
+		v2(0,0.188000,0)
+		hvector(0,0,0.041600)
+	</block>
+	diel 5.800000
+</medium>
+<medium>
+	name rect_conf_0_4
+	<block>
+		layer 0
+		basepoint(2.506000,3.326000,0.251400)
+		v1(0.128000,0,0)
+		v2(0,0.188000,0)
+		hvector(0,0,0.041600)
+	</block>
+	diel 5.800000
+</medium>
+<medium>
+	name rect_conf_0_5
+	<block>
+		layer 0
+		basepoint(2.506000,4.286000,0.251400)
+		v1(0.128000,0,0)
+		v2(0,0.188000,0)
+		hvector(0,0,0.041600)
+	</block>
+	diel 5.800000
+</medium>
+<medium>
+	name rect_conf_0_6
+	<block>
+		layer 0
+		basepoint(2.866000,3.326000,0.251400)
+		v1(0.128000,0,0)
+		v2(0,0.188000,0)
+		hvector(0,0,0.041600)
+	</block>
+	diel 5.800000
+</medium>
+<medium>
+	name rect_conf_0_7
+	<block>
+		layer 0
+		basepoint(2.866000,4.286000,0.251400)
+		v1(0.128000,0,0)
+		v2(0,0.188000,0)
+		hvector(0,0,0.041600)
+	</block>
+	diel 5.800000
+</medium>
+<medium>
+	name rect_conf_0_8
+	<block>
+		layer 0
+		basepoint(3.226000,3.326000,0.251400)
+		v1(0.128000,0,0)
+		v2(0,0.188000,0)
+		hvector(0,0,0.041600)
+	</block>
+	diel 5.800000
+</medium>
+<medium>
+	name rect_conf_0_9
+	<block>
+		layer 0
+		basepoint(3.226000,4.286000,0.251400)
+		v1(0.128000,0,0)
+		v2(0,0.188000,0)
+		hvector(0,0,0.041600)
+	</block>
+	diel 5.800000
+</medium>
+<medium>
+	name rect_conf_1_0
+	<block>
+		layer 0
+		basepoint(1.776000,3.476000,0.251400)
+		v1(0.148000,0,0)
+		v2(0,0.848000,0)
+		hvector(0,0,0.043000)
+	</block>
+	diel 5.800000
+</medium>
+<medium>
+	name rect_conf_1_1
+	<block>
+		layer 0
+		basepoint(2.136000,3.476000,0.251400)
+		v1(0.148000,0,0)
+		v2(0,0.848000,0)
+		hvector(0,0,0.043000)
+	</block>
+	diel 5.800000
+</medium>
+<medium>
+	name rect_conf_1_2
+	<block>
+		layer 0
+		basepoint(2.496000,3.476000,0.251400)
+		v1(0.148000,0,0)
+		v2(0,0.848000,0)
+		hvector(0,0,0.043000)
+	</block>
+	diel 5.800000
+</medium>
+<medium>
+	name rect_conf_1_3
+	<block>
+		layer 0
+		basepoint(2.856000,3.476000,0.251400)
+		v1(0.148000,0,0)
+		v2(0,0.848000,0)
+		hvector(0,0,0.043000)
+	</block>
+	diel 5.800000
+</medium>
+<medium>
+	name rect_conf_1_4
+	<block>
+		layer 0
+		basepoint(3.216000,3.476000,0.251400)
+		v1(0.148000,0,0)
+		v2(0,0.848000,0)
+		hvector(0,0,0.043000)
+	</block>
+	diel 5.800000
+</medium>
+<medium>
+	name rect_conf_0_0
+	<block>
+		layer 1
+		basepoint(1.790000,3.490000,0.251400)
+		v1(0.120000,0,0)
+		v2(0,0.820000,0)
+		hvector(0,0,0.043000)
+	</block>
+	diel 6.900000
+</medium>
+<medium>
+	name rect_conf_0_1
+	<block>
+		layer 1
+		basepoint(2.150000,3.490000,0.251400)
+		v1(0.120000,0,0)
+		v2(0,0.820000,0)
+		hvector(0,0,0.043000)
+	</block>
+	diel 6.900000
+</medium>
+<medium>
+	name rect_conf_0_2
+	<block>
+		layer 1
+		basepoint(2.510000,3.490000,0.251400)
+		v1(0.120000,0,0)
+		v2(0,0.820000,0)
+		hvector(0,0,0.043000)
+	</block>
+	diel 6.900000
+</medium>
+<medium>
+	name rect_conf_0_3
+	<block>
+		layer 1
+		basepoint(2.870000,3.490000,0.251400)
+		v1(0.120000,0,0)
+		v2(0,0.820000,0)
+		hvector(0,0,0.043000)
+	</block>
+	diel 6.900000
+</medium>
+<medium>
+	name rect_conf_0_4
+	<block>
+		layer 1
+		basepoint(3.230000,3.490000,0.251400)
+		v1(0.120000,0,0)
+		v2(0,0.820000,0)
+		hvector(0,0,0.043000)
+	</block>
+	diel 6.900000
+</medium>
+<medium>
+	name bw_conf_0_0
+	<block>
+		layer 2
+		basepoint(1.800000,3.500000,0.248400)
+		v1(0.100000,0,0)
+		v2(0,0.800000,0)
+		hvector(0,0,0.046000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name bw_conf_0_1
+	<block>
+		layer 2
+		basepoint(2.160000,3.500000,0.248400)
+		v1(0.100000,0,0)
+		v2(0,0.800000,0)
+		hvector(0,0,0.046000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name bw_conf_0_2
+	<block>
+		layer 2
+		basepoint(2.520000,3.500000,0.248400)
+		v1(0.100000,0,0)
+		v2(0,0.800000,0)
+		hvector(0,0,0.046000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name bw_conf_0_3
+	<block>
+		layer 2
+		basepoint(2.880000,3.500000,0.248400)
+		v1(0.100000,0,0)
+		v2(0,0.800000,0)
+		hvector(0,0,0.046000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name bw_conf_0_4
+	<block>
+		layer 2
+		basepoint(3.240000,3.500000,0.248400)
+		v1(0.100000,0,0)
+		v2(0,0.800000,0)
+		hvector(0,0,0.046000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name damage_conf_0
+	<block>
+		layer 3
+		basepoint(1.653400,3.483400,0.416000)
+		v1(0.033200,0,0)
+		v2(0,0.833200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_1
+	<block>
+		layer 3
+		basepoint(1.603400,3.533400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_2
+	<block>
+		layer 3
+		basepoint(1.603400,3.833400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_3
+	<block>
+		layer 3
+		basepoint(1.603400,4.133400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_4
+	<block>
+		layer 3
+		basepoint(1.673400,3.533400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_5
+	<block>
+		layer 3
+		basepoint(1.673400,3.833400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_6
+	<block>
+		layer 3
+		basepoint(1.673400,4.133400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_7
+	<block>
+		layer 3
+		basepoint(2.013400,3.483400,0.416000)
+		v1(0.033200,0,0)
+		v2(0,0.833200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_8
+	<block>
+		layer 3
+		basepoint(1.963400,3.533400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_9
+	<block>
+		layer 3
+		basepoint(1.963400,3.833400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_10
+	<block>
+		layer 3
+		basepoint(1.963400,4.133400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_11
+	<block>
+		layer 3
+		basepoint(2.033400,3.533400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_12
+	<block>
+		layer 3
+		basepoint(2.033400,3.833400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_13
+	<block>
+		layer 3
+		basepoint(2.033400,4.133400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_14
+	<block>
+		layer 3
+		basepoint(2.373400,3.483400,0.416000)
+		v1(0.033200,0,0)
+		v2(0,0.833200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_15
+	<block>
+		layer 3
+		basepoint(2.323400,3.533400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_16
+	<block>
+		layer 3
+		basepoint(2.323400,3.833400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_17
+	<block>
+		layer 3
+		basepoint(2.323400,4.133400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_18
+	<block>
+		layer 3
+		basepoint(2.393400,3.533400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_19
+	<block>
+		layer 3
+		basepoint(2.393400,3.833400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_20
+	<block>
+		layer 3
+		basepoint(2.393400,4.133400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_21
+	<block>
+		layer 3
+		basepoint(2.733400,3.483400,0.416000)
+		v1(0.033200,0,0)
+		v2(0,0.833200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_22
+	<block>
+		layer 3
+		basepoint(2.683400,3.533400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_23
+	<block>
+		layer 3
+		basepoint(2.683400,3.833400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_24
+	<block>
+		layer 3
+		basepoint(2.683400,4.133400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_25
+	<block>
+		layer 3
+		basepoint(2.753400,3.533400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_26
+	<block>
+		layer 3
+		basepoint(2.753400,3.833400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_27
+	<block>
+		layer 3
+		basepoint(2.753400,4.133400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_28
+	<block>
+		layer 3
+		basepoint(3.093400,3.483400,0.416000)
+		v1(0.033200,0,0)
+		v2(0,0.833200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_29
+	<block>
+		layer 3
+		basepoint(3.043400,3.533400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_30
+	<block>
+		layer 3
+		basepoint(3.043400,3.833400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_31
+	<block>
+		layer 3
+		basepoint(3.043400,4.133400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_32
+	<block>
+		layer 3
+		basepoint(3.113400,3.533400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_33
+	<block>
+		layer 3
+		basepoint(3.113400,3.833400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_34
+	<block>
+		layer 3
+		basepoint(3.113400,4.133400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_35
+	<block>
+		layer 3
+		basepoint(3.453400,3.483400,0.416000)
+		v1(0.033200,0,0)
+		v2(0,0.833200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_36
+	<block>
+		layer 3
+		basepoint(3.403400,3.533400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_37
+	<block>
+		layer 3
+		basepoint(3.403400,3.833400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_38
+	<block>
+		layer 3
+		basepoint(3.403400,4.133400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_39
+	<block>
+		layer 3
+		basepoint(3.473400,3.533400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_40
+	<block>
+		layer 3
+		basepoint(3.473400,3.833400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name damage_conf_41
+	<block>
+		layer 3
+		basepoint(3.473400,4.133400,0.416000)
+		v1(0.063200,0,0)
+		v2(0,0.133200,0)
+		hvector(0,0,0.037000)
+	</block>
+	diel 3.100000
+</medium>
+<medium>
+	name fin_ox_0_0
+	<block>
+		layer 4
+		basepoint(1.800000,3.590000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_0_1
+	<block>
+		layer 4
+		basepoint(1.800000,3.665000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_0_2
+	<block>
+		layer 4
+		basepoint(1.800000,3.740000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_0_3
+	<block>
+		layer 4
+		basepoint(1.800000,3.815000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_0_4
+	<block>
+		layer 4
+		basepoint(1.800000,3.890000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_0_5
+	<block>
+		layer 4
+		basepoint(1.800000,3.965000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_0_6
+	<block>
+		layer 4
+		basepoint(1.800000,4.040000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_0_7
+	<block>
+		layer 4
+		basepoint(1.800000,4.115000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_chnl_0_0
+	<block>
+		layer 5
+		basepoint(1.800000,3.593000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_0_1
+	<block>
+		layer 5
+		basepoint(1.800000,3.668000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_0_2
+	<block>
+		layer 5
+		basepoint(1.800000,3.743000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_0_3
+	<block>
+		layer 5
+		basepoint(1.800000,3.818000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_0_4
+	<block>
+		layer 5
+		basepoint(1.800000,3.893000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_0_5
+	<block>
+		layer 5
+		basepoint(1.800000,3.968000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_0_6
+	<block>
+		layer 5
+		basepoint(1.800000,4.043000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_0_7
+	<block>
+		layer 5
+		basepoint(1.800000,4.118000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_ox_1_0
+	<block>
+		layer 4
+		basepoint(2.160000,3.590000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_1_1
+	<block>
+		layer 4
+		basepoint(2.160000,3.665000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_1_2
+	<block>
+		layer 4
+		basepoint(2.160000,3.740000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_1_3
+	<block>
+		layer 4
+		basepoint(2.160000,3.815000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_1_4
+	<block>
+		layer 4
+		basepoint(2.160000,3.890000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_1_5
+	<block>
+		layer 4
+		basepoint(2.160000,3.965000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_1_6
+	<block>
+		layer 4
+		basepoint(2.160000,4.040000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_1_7
+	<block>
+		layer 4
+		basepoint(2.160000,4.115000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_chnl_1_0
+	<block>
+		layer 5
+		basepoint(2.160000,3.593000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_1_1
+	<block>
+		layer 5
+		basepoint(2.160000,3.668000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_1_2
+	<block>
+		layer 5
+		basepoint(2.160000,3.743000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_1_3
+	<block>
+		layer 5
+		basepoint(2.160000,3.818000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_1_4
+	<block>
+		layer 5
+		basepoint(2.160000,3.893000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_1_5
+	<block>
+		layer 5
+		basepoint(2.160000,3.968000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_1_6
+	<block>
+		layer 5
+		basepoint(2.160000,4.043000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_1_7
+	<block>
+		layer 5
+		basepoint(2.160000,4.118000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_ox_2_0
+	<block>
+		layer 4
+		basepoint(2.520000,3.590000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_2_1
+	<block>
+		layer 4
+		basepoint(2.520000,3.665000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_2_2
+	<block>
+		layer 4
+		basepoint(2.520000,3.740000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_2_3
+	<block>
+		layer 4
+		basepoint(2.520000,3.815000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_2_4
+	<block>
+		layer 4
+		basepoint(2.520000,3.890000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_2_5
+	<block>
+		layer 4
+		basepoint(2.520000,3.965000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_2_6
+	<block>
+		layer 4
+		basepoint(2.520000,4.040000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_2_7
+	<block>
+		layer 4
+		basepoint(2.520000,4.115000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_chnl_2_0
+	<block>
+		layer 5
+		basepoint(2.520000,3.593000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_2_1
+	<block>
+		layer 5
+		basepoint(2.520000,3.668000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_2_2
+	<block>
+		layer 5
+		basepoint(2.520000,3.743000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_2_3
+	<block>
+		layer 5
+		basepoint(2.520000,3.818000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_2_4
+	<block>
+		layer 5
+		basepoint(2.520000,3.893000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_2_5
+	<block>
+		layer 5
+		basepoint(2.520000,3.968000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_2_6
+	<block>
+		layer 5
+		basepoint(2.520000,4.043000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_2_7
+	<block>
+		layer 5
+		basepoint(2.520000,4.118000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_ox_3_0
+	<block>
+		layer 4
+		basepoint(2.880000,3.590000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_3_1
+	<block>
+		layer 4
+		basepoint(2.880000,3.665000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_3_2
+	<block>
+		layer 4
+		basepoint(2.880000,3.740000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_3_3
+	<block>
+		layer 4
+		basepoint(2.880000,3.815000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_3_4
+	<block>
+		layer 4
+		basepoint(2.880000,3.890000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_3_5
+	<block>
+		layer 4
+		basepoint(2.880000,3.965000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_3_6
+	<block>
+		layer 4
+		basepoint(2.880000,4.040000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_3_7
+	<block>
+		layer 4
+		basepoint(2.880000,4.115000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_chnl_3_0
+	<block>
+		layer 5
+		basepoint(2.880000,3.593000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_3_1
+	<block>
+		layer 5
+		basepoint(2.880000,3.668000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_3_2
+	<block>
+		layer 5
+		basepoint(2.880000,3.743000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_3_3
+	<block>
+		layer 5
+		basepoint(2.880000,3.818000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_3_4
+	<block>
+		layer 5
+		basepoint(2.880000,3.893000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_3_5
+	<block>
+		layer 5
+		basepoint(2.880000,3.968000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_3_6
+	<block>
+		layer 5
+		basepoint(2.880000,4.043000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_3_7
+	<block>
+		layer 5
+		basepoint(2.880000,4.118000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_ox_4_0
+	<block>
+		layer 4
+		basepoint(3.240000,3.590000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_4_1
+	<block>
+		layer 4
+		basepoint(3.240000,3.665000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_4_2
+	<block>
+		layer 4
+		basepoint(3.240000,3.740000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_4_3
+	<block>
+		layer 4
+		basepoint(3.240000,3.815000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_4_4
+	<block>
+		layer 4
+		basepoint(3.240000,3.890000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_4_5
+	<block>
+		layer 4
+		basepoint(3.240000,3.965000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_4_6
+	<block>
+		layer 4
+		basepoint(3.240000,4.040000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_ox_4_7
+	<block>
+		layer 4
+		basepoint(3.240000,4.115000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.025000,0)
+		hvector(0,0,0.033000)
+	</block>
+	diel 13.000000
+</medium>
+<medium>
+	name fin_chnl_4_0
+	<block>
+		layer 5
+		basepoint(3.240000,3.593000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_4_1
+	<block>
+		layer 5
+		basepoint(3.240000,3.668000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_4_2
+	<block>
+		layer 5
+		basepoint(3.240000,3.743000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_4_3
+	<block>
+		layer 5
+		basepoint(3.240000,3.818000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_4_4
+	<block>
+		layer 5
+		basepoint(3.240000,3.893000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_4_5
+	<block>
+		layer 5
+		basepoint(3.240000,3.968000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_4_6
+	<block>
+		layer 5
+		basepoint(3.240000,4.043000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<medium>
+	name fin_chnl_4_7
+	<block>
+		layer 5
+		basepoint(3.240000,4.118000,0.186400)
+		v1(0.100000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	diel 8.000000
+</medium>
+<conductor>
+	name GROUND
+	<block>
+		name 0
+		layer 6
+		basepoint(-3.184000,-1.394000,-0.100000)
+		v1(4.528000,0,0)
+		v2(0,10.588000,0)
+		hvector(0,0,0.100000)
+	</block>
+	<block>
+		name 1
+		layer 6
+		basepoint(1.346000,-1.394000,-0.100000)
+		v1(2.448000,0,0)
+		v2(0,4.528000,0)
+		hvector(0,0,0.100000)
+	</block>
+	<block>
+		name 2
+		layer 6
+		basepoint(1.346000,4.666000,-0.100000)
+		v1(2.448000,0,0)
+		v2(0,4.528000,0)
+		hvector(0,0,0.100000)
+	</block>
+	<block>
+		name 3
+		layer 6
+		basepoint(3.796000,-1.394000,-0.100000)
+		v1(4.528000,0,0)
+		v2(0,10.588000,0)
+		hvector(0,0,0.100000)
+	</block>
+</conductor>
+<conductor>
+	name S1
+	<block>
+		name 4
+		layer 7
+		basepoint(1.660000,3.490000,0.399700)
+		v1(0.020000,0,0)
+		v2(0,0.820000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 5
+		layer 7
+		basepoint(1.661800,3.491800,0.373000)
+		v1(0.016400,0,0)
+		v2(0,0.816400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 6
+		layer 7
+		basepoint(1.658200,3.488200,0.426300)
+		v1(0.023600,0,0)
+		v2(0,0.823600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 7
+		layer 7
+		basepoint(1.610000,3.540000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 8
+		layer 7
+		basepoint(1.610000,3.840000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 9
+		layer 7
+		basepoint(1.610000,4.140000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 10
+		layer 7
+		basepoint(1.680000,3.540000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 11
+		layer 7
+		basepoint(1.680000,3.840000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 12
+		layer 7
+		basepoint(1.680000,4.140000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 13
+		layer 7
+		basepoint(1.611800,3.541800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 14
+		layer 7
+		basepoint(1.611800,3.841800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 15
+		layer 7
+		basepoint(1.611800,4.141800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 16
+		layer 7
+		basepoint(1.681800,3.541800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 17
+		layer 7
+		basepoint(1.681800,3.841800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 18
+		layer 7
+		basepoint(1.681800,4.141800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 19
+		layer 7
+		basepoint(1.608200,3.538200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 20
+		layer 7
+		basepoint(1.608200,3.838200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 21
+		layer 7
+		basepoint(1.608200,4.138200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 22
+		layer 7
+		basepoint(1.678200,3.538200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 23
+		layer 7
+		basepoint(1.678200,3.838200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 24
+		layer 7
+		basepoint(1.678200,4.138200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 25
+		layer 8
+		basepoint(1.610000,3.540000,0.249000)
+		v1(0.120000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.124000)
+	</block>
+	<block>
+		name 25
+		layer 8
+		basepoint(1.610000,3.840000,0.249000)
+		v1(0.120000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.124000)
+	</block>
+	<block>
+		name 25
+		layer 8
+		basepoint(1.610000,4.140000,0.249000)
+		v1(0.120000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.124000)
+	</block>
+	<block>
+		name 26
+		layer 9
+		basepoint(1.570000,3.593000,0.186400)
+		v1(0.230000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 27
+		layer 9
+		basepoint(1.570000,3.668000,0.186400)
+		v1(0.230000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 28
+		layer 9
+		basepoint(1.570000,3.743000,0.186400)
+		v1(0.230000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 29
+		layer 9
+		basepoint(1.570000,3.818000,0.186400)
+		v1(0.230000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 30
+		layer 9
+		basepoint(1.570000,3.893000,0.186400)
+		v1(0.230000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 31
+		layer 9
+		basepoint(1.570000,3.968000,0.186400)
+		v1(0.230000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 32
+		layer 9
+		basepoint(1.570000,4.043000,0.186400)
+		v1(0.230000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 33
+		layer 9
+		basepoint(1.570000,4.118000,0.186400)
+		v1(0.230000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 34
+		layer 9
+		basepoint(1.570000,3.573000,0.249000)
+		v1(0.215000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 35
+		layer 9
+		basepoint(1.570000,3.648000,0.249000)
+		v1(0.215000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 36
+		layer 9
+		basepoint(1.570000,3.723000,0.249000)
+		v1(0.215000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 37
+		layer 9
+		basepoint(1.570000,3.798000,0.249000)
+		v1(0.215000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 38
+		layer 9
+		basepoint(1.570000,3.873000,0.249000)
+		v1(0.215000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 39
+		layer 9
+		basepoint(1.570000,3.948000,0.249000)
+		v1(0.215000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 40
+		layer 9
+		basepoint(1.570000,4.023000,0.249000)
+		v1(0.215000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 41
+		layer 9
+		basepoint(1.570000,4.098000,0.249000)
+		v1(0.215000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+</conductor>
+<conductor>
+	name D1
+	<block>
+		name 42
+		layer 7
+		basepoint(2.020000,3.490000,0.399700)
+		v1(0.020000,0,0)
+		v2(0,0.820000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 43
+		layer 7
+		basepoint(2.021800,3.491800,0.373000)
+		v1(0.016400,0,0)
+		v2(0,0.816400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 44
+		layer 7
+		basepoint(2.018200,3.488200,0.426300)
+		v1(0.023600,0,0)
+		v2(0,0.823600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 45
+		layer 7
+		basepoint(1.970000,3.540000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 46
+		layer 7
+		basepoint(1.970000,3.840000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 47
+		layer 7
+		basepoint(1.970000,4.140000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 48
+		layer 7
+		basepoint(2.040000,3.540000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 49
+		layer 7
+		basepoint(2.040000,3.840000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 50
+		layer 7
+		basepoint(2.040000,4.140000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 51
+		layer 7
+		basepoint(1.971800,3.541800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 52
+		layer 7
+		basepoint(1.971800,3.841800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 53
+		layer 7
+		basepoint(1.971800,4.141800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 54
+		layer 7
+		basepoint(2.041800,3.541800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 55
+		layer 7
+		basepoint(2.041800,3.841800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 56
+		layer 7
+		basepoint(2.041800,4.141800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 57
+		layer 7
+		basepoint(1.968200,3.538200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 58
+		layer 7
+		basepoint(1.968200,3.838200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 59
+		layer 7
+		basepoint(1.968200,4.138200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 60
+		layer 7
+		basepoint(2.038200,3.538200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 61
+		layer 7
+		basepoint(2.038200,3.838200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 62
+		layer 7
+		basepoint(2.038200,4.138200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 63
+		layer 8
+		basepoint(1.970000,3.540000,0.249000)
+		v1(0.120000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.124000)
+	</block>
+	<block>
+		name 63
+		layer 8
+		basepoint(1.970000,3.840000,0.249000)
+		v1(0.120000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.124000)
+	</block>
+	<block>
+		name 63
+		layer 8
+		basepoint(1.970000,4.140000,0.249000)
+		v1(0.120000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.124000)
+	</block>
+	<block>
+		name 64
+		layer 9
+		basepoint(1.900000,3.593000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 65
+		layer 9
+		basepoint(1.900000,3.668000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 66
+		layer 9
+		basepoint(1.900000,3.743000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 67
+		layer 9
+		basepoint(1.900000,3.818000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 68
+		layer 9
+		basepoint(1.900000,3.893000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 69
+		layer 9
+		basepoint(1.900000,3.968000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 70
+		layer 9
+		basepoint(1.900000,4.043000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 71
+		layer 9
+		basepoint(1.900000,4.118000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 72
+		layer 9
+		basepoint(1.915000,3.573000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 73
+		layer 9
+		basepoint(1.915000,3.648000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 74
+		layer 9
+		basepoint(1.915000,3.723000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 75
+		layer 9
+		basepoint(1.915000,3.798000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 76
+		layer 9
+		basepoint(1.915000,3.873000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 77
+		layer 9
+		basepoint(1.915000,3.948000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 78
+		layer 9
+		basepoint(1.915000,4.023000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 79
+		layer 9
+		basepoint(1.915000,4.098000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+</conductor>
+<conductor>
+	name D2
+	<block>
+		name 80
+		layer 7
+		basepoint(2.380000,3.490000,0.399700)
+		v1(0.020000,0,0)
+		v2(0,0.820000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 81
+		layer 7
+		basepoint(2.381800,3.491800,0.373000)
+		v1(0.016400,0,0)
+		v2(0,0.816400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 82
+		layer 7
+		basepoint(2.378200,3.488200,0.426300)
+		v1(0.023600,0,0)
+		v2(0,0.823600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 83
+		layer 7
+		basepoint(2.330000,3.540000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 84
+		layer 7
+		basepoint(2.330000,3.840000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 85
+		layer 7
+		basepoint(2.330000,4.140000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 86
+		layer 7
+		basepoint(2.400000,3.540000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 87
+		layer 7
+		basepoint(2.400000,3.840000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 88
+		layer 7
+		basepoint(2.400000,4.140000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 89
+		layer 7
+		basepoint(2.331800,3.541800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 90
+		layer 7
+		basepoint(2.331800,3.841800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 91
+		layer 7
+		basepoint(2.331800,4.141800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 92
+		layer 7
+		basepoint(2.401800,3.541800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 93
+		layer 7
+		basepoint(2.401800,3.841800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 94
+		layer 7
+		basepoint(2.401800,4.141800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 95
+		layer 7
+		basepoint(2.328200,3.538200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 96
+		layer 7
+		basepoint(2.328200,3.838200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 97
+		layer 7
+		basepoint(2.328200,4.138200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 98
+		layer 7
+		basepoint(2.398200,3.538200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 99
+		layer 7
+		basepoint(2.398200,3.838200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 100
+		layer 7
+		basepoint(2.398200,4.138200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 101
+		layer 8
+		basepoint(2.330000,3.540000,0.249000)
+		v1(0.120000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.124000)
+	</block>
+	<block>
+		name 101
+		layer 8
+		basepoint(2.330000,3.840000,0.249000)
+		v1(0.120000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.124000)
+	</block>
+	<block>
+		name 101
+		layer 8
+		basepoint(2.330000,4.140000,0.249000)
+		v1(0.120000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.124000)
+	</block>
+	<block>
+		name 102
+		layer 9
+		basepoint(2.260000,3.593000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 103
+		layer 9
+		basepoint(2.260000,3.668000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 104
+		layer 9
+		basepoint(2.260000,3.743000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 105
+		layer 9
+		basepoint(2.260000,3.818000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 106
+		layer 9
+		basepoint(2.260000,3.893000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 107
+		layer 9
+		basepoint(2.260000,3.968000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 108
+		layer 9
+		basepoint(2.260000,4.043000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 109
+		layer 9
+		basepoint(2.260000,4.118000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 110
+		layer 9
+		basepoint(2.275000,3.573000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 111
+		layer 9
+		basepoint(2.275000,3.648000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 112
+		layer 9
+		basepoint(2.275000,3.723000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 113
+		layer 9
+		basepoint(2.275000,3.798000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 114
+		layer 9
+		basepoint(2.275000,3.873000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 115
+		layer 9
+		basepoint(2.275000,3.948000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 116
+		layer 9
+		basepoint(2.275000,4.023000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 117
+		layer 9
+		basepoint(2.275000,4.098000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+</conductor>
+<conductor>
+	name D3
+	<block>
+		name 118
+		layer 7
+		basepoint(2.740000,3.490000,0.399700)
+		v1(0.020000,0,0)
+		v2(0,0.820000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 119
+		layer 7
+		basepoint(2.741800,3.491800,0.373000)
+		v1(0.016400,0,0)
+		v2(0,0.816400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 120
+		layer 7
+		basepoint(2.738200,3.488200,0.426300)
+		v1(0.023600,0,0)
+		v2(0,0.823600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 121
+		layer 7
+		basepoint(2.690000,3.540000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 122
+		layer 7
+		basepoint(2.690000,3.840000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 123
+		layer 7
+		basepoint(2.690000,4.140000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 124
+		layer 7
+		basepoint(2.760000,3.540000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 125
+		layer 7
+		basepoint(2.760000,3.840000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 126
+		layer 7
+		basepoint(2.760000,4.140000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 127
+		layer 7
+		basepoint(2.691800,3.541800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 128
+		layer 7
+		basepoint(2.691800,3.841800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 129
+		layer 7
+		basepoint(2.691800,4.141800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 130
+		layer 7
+		basepoint(2.761800,3.541800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 131
+		layer 7
+		basepoint(2.761800,3.841800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 132
+		layer 7
+		basepoint(2.761800,4.141800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 133
+		layer 7
+		basepoint(2.688200,3.538200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 134
+		layer 7
+		basepoint(2.688200,3.838200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 135
+		layer 7
+		basepoint(2.688200,4.138200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 136
+		layer 7
+		basepoint(2.758200,3.538200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 137
+		layer 7
+		basepoint(2.758200,3.838200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 138
+		layer 7
+		basepoint(2.758200,4.138200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 139
+		layer 8
+		basepoint(2.690000,3.540000,0.249000)
+		v1(0.120000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.124000)
+	</block>
+	<block>
+		name 139
+		layer 8
+		basepoint(2.690000,3.840000,0.249000)
+		v1(0.120000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.124000)
+	</block>
+	<block>
+		name 139
+		layer 8
+		basepoint(2.690000,4.140000,0.249000)
+		v1(0.120000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.124000)
+	</block>
+	<block>
+		name 140
+		layer 9
+		basepoint(2.620000,3.593000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 141
+		layer 9
+		basepoint(2.620000,3.668000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 142
+		layer 9
+		basepoint(2.620000,3.743000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 143
+		layer 9
+		basepoint(2.620000,3.818000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 144
+		layer 9
+		basepoint(2.620000,3.893000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 145
+		layer 9
+		basepoint(2.620000,3.968000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 146
+		layer 9
+		basepoint(2.620000,4.043000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 147
+		layer 9
+		basepoint(2.620000,4.118000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 148
+		layer 9
+		basepoint(2.635000,3.573000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 149
+		layer 9
+		basepoint(2.635000,3.648000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 150
+		layer 9
+		basepoint(2.635000,3.723000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 151
+		layer 9
+		basepoint(2.635000,3.798000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 152
+		layer 9
+		basepoint(2.635000,3.873000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 153
+		layer 9
+		basepoint(2.635000,3.948000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 154
+		layer 9
+		basepoint(2.635000,4.023000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 155
+		layer 9
+		basepoint(2.635000,4.098000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+</conductor>
+<conductor>
+	name D4
+	<block>
+		name 156
+		layer 7
+		basepoint(3.100000,3.490000,0.399700)
+		v1(0.020000,0,0)
+		v2(0,0.820000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 157
+		layer 7
+		basepoint(3.101800,3.491800,0.373000)
+		v1(0.016400,0,0)
+		v2(0,0.816400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 158
+		layer 7
+		basepoint(3.098200,3.488200,0.426300)
+		v1(0.023600,0,0)
+		v2(0,0.823600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 159
+		layer 7
+		basepoint(3.050000,3.540000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 160
+		layer 7
+		basepoint(3.050000,3.840000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 161
+		layer 7
+		basepoint(3.050000,4.140000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 162
+		layer 7
+		basepoint(3.120000,3.540000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 163
+		layer 7
+		basepoint(3.120000,3.840000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 164
+		layer 7
+		basepoint(3.120000,4.140000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 165
+		layer 7
+		basepoint(3.051800,3.541800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 166
+		layer 7
+		basepoint(3.051800,3.841800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 167
+		layer 7
+		basepoint(3.051800,4.141800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 168
+		layer 7
+		basepoint(3.121800,3.541800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 169
+		layer 7
+		basepoint(3.121800,3.841800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 170
+		layer 7
+		basepoint(3.121800,4.141800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 171
+		layer 7
+		basepoint(3.048200,3.538200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 172
+		layer 7
+		basepoint(3.048200,3.838200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 173
+		layer 7
+		basepoint(3.048200,4.138200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 174
+		layer 7
+		basepoint(3.118200,3.538200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 175
+		layer 7
+		basepoint(3.118200,3.838200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 176
+		layer 7
+		basepoint(3.118200,4.138200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 177
+		layer 8
+		basepoint(3.050000,3.540000,0.249000)
+		v1(0.120000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.124000)
+	</block>
+	<block>
+		name 177
+		layer 8
+		basepoint(3.050000,3.840000,0.249000)
+		v1(0.120000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.124000)
+	</block>
+	<block>
+		name 177
+		layer 8
+		basepoint(3.050000,4.140000,0.249000)
+		v1(0.120000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.124000)
+	</block>
+	<block>
+		name 178
+		layer 9
+		basepoint(2.980000,3.593000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 179
+		layer 9
+		basepoint(2.980000,3.668000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 180
+		layer 9
+		basepoint(2.980000,3.743000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 181
+		layer 9
+		basepoint(2.980000,3.818000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 182
+		layer 9
+		basepoint(2.980000,3.893000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 183
+		layer 9
+		basepoint(2.980000,3.968000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 184
+		layer 9
+		basepoint(2.980000,4.043000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 185
+		layer 9
+		basepoint(2.980000,4.118000,0.186400)
+		v1(0.260000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 186
+		layer 9
+		basepoint(2.995000,3.573000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 187
+		layer 9
+		basepoint(2.995000,3.648000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 188
+		layer 9
+		basepoint(2.995000,3.723000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 189
+		layer 9
+		basepoint(2.995000,3.798000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 190
+		layer 9
+		basepoint(2.995000,3.873000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 191
+		layer 9
+		basepoint(2.995000,3.948000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 192
+		layer 9
+		basepoint(2.995000,4.023000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 193
+		layer 9
+		basepoint(2.995000,4.098000,0.249000)
+		v1(0.230000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+</conductor>
+<conductor>
+	name D5
+	<block>
+		name 194
+		layer 7
+		basepoint(3.460000,3.490000,0.399700)
+		v1(0.020000,0,0)
+		v2(0,0.820000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 195
+		layer 7
+		basepoint(3.461800,3.491800,0.373000)
+		v1(0.016400,0,0)
+		v2(0,0.816400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 196
+		layer 7
+		basepoint(3.458200,3.488200,0.426300)
+		v1(0.023600,0,0)
+		v2(0,0.823600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 197
+		layer 7
+		basepoint(3.410000,3.540000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 198
+		layer 7
+		basepoint(3.410000,3.840000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 199
+		layer 7
+		basepoint(3.410000,4.140000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 200
+		layer 7
+		basepoint(3.480000,3.540000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 201
+		layer 7
+		basepoint(3.480000,3.840000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 202
+		layer 7
+		basepoint(3.480000,4.140000,0.399700)
+		v1(0.050000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.026600)
+	</block>
+	<block>
+		name 203
+		layer 7
+		basepoint(3.411800,3.541800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 204
+		layer 7
+		basepoint(3.411800,3.841800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 205
+		layer 7
+		basepoint(3.411800,4.141800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 206
+		layer 7
+		basepoint(3.481800,3.541800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 207
+		layer 7
+		basepoint(3.481800,3.841800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 208
+		layer 7
+		basepoint(3.481800,4.141800,0.373000)
+		v1(0.046400,0,0)
+		v2(0,0.116400,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 209
+		layer 7
+		basepoint(3.408200,3.538200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 210
+		layer 7
+		basepoint(3.408200,3.838200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 211
+		layer 7
+		basepoint(3.408200,4.138200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 212
+		layer 7
+		basepoint(3.478200,3.538200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 213
+		layer 7
+		basepoint(3.478200,3.838200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 214
+		layer 7
+		basepoint(3.478200,4.138200,0.426300)
+		v1(0.053600,0,0)
+		v2(0,0.123600,0)
+		hvector(0,0,0.026700)
+	</block>
+	<block>
+		name 215
+		layer 8
+		basepoint(3.410000,3.540000,0.249000)
+		v1(0.120000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.124000)
+	</block>
+	<block>
+		name 215
+		layer 8
+		basepoint(3.410000,3.840000,0.249000)
+		v1(0.120000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.124000)
+	</block>
+	<block>
+		name 215
+		layer 8
+		basepoint(3.410000,4.140000,0.249000)
+		v1(0.120000,0,0)
+		v2(0,0.120000,0)
+		hvector(0,0,0.124000)
+	</block>
+	<block>
+		name 216
+		layer 9
+		basepoint(3.340000,3.593000,0.186400)
+		v1(0.230000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 217
+		layer 9
+		basepoint(3.340000,3.668000,0.186400)
+		v1(0.230000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 218
+		layer 9
+		basepoint(3.340000,3.743000,0.186400)
+		v1(0.230000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 219
+		layer 9
+		basepoint(3.340000,3.818000,0.186400)
+		v1(0.230000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 220
+		layer 9
+		basepoint(3.340000,3.893000,0.186400)
+		v1(0.230000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 221
+		layer 9
+		basepoint(3.340000,3.968000,0.186400)
+		v1(0.230000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 222
+		layer 9
+		basepoint(3.340000,4.043000,0.186400)
+		v1(0.230000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 223
+		layer 9
+		basepoint(3.340000,4.118000,0.186400)
+		v1(0.230000,0,0)
+		v2(0,0.019000,0)
+		hvector(0,0,0.095000)
+	</block>
+	<block>
+		name 224
+		layer 9
+		basepoint(3.355000,3.573000,0.249000)
+		v1(0.215000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 225
+		layer 9
+		basepoint(3.355000,3.648000,0.249000)
+		v1(0.215000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 226
+		layer 9
+		basepoint(3.355000,3.723000,0.249000)
+		v1(0.215000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 227
+		layer 9
+		basepoint(3.355000,3.798000,0.249000)
+		v1(0.215000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 228
+		layer 9
+		basepoint(3.355000,3.873000,0.249000)
+		v1(0.215000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 229
+		layer 9
+		basepoint(3.355000,3.948000,0.249000)
+		v1(0.215000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 230
+		layer 9
+		basepoint(3.355000,4.023000,0.249000)
+		v1(0.215000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+	<block>
+		name 231
+		layer 9
+		basepoint(3.355000,4.098000,0.249000)
+		v1(0.215000,0,0)
+		v2(0,0.059000,0)
+		hvector(0,0,0.040000)
+	</block>
+</conductor>
+<conductor>
+	name G1
+	<block>
+		name 232
+		layer 10
+		basepoint(1.800000,3.340000,0.250000)
+		v1(0.100000,0,0)
+		v2(0,0.160000,0)
+		hvector(0,0,0.043000)
+	</block>
+	<block>
+		name 233
+		layer 10
+		basepoint(1.800000,4.300000,0.250000)
+		v1(0.100000,0,0)
+		v2(0,0.160000,0)
+		hvector(0,0,0.043000)
+	</block>
+	<block>
+		name 234
+		layer 11
+		basepoint(1.800000,3.615000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 235
+		layer 11
+		basepoint(1.800000,3.690000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 236
+		layer 11
+		basepoint(1.800000,3.765000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 237
+		layer 11
+		basepoint(1.800000,3.840000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 238
+		layer 11
+		basepoint(1.800000,3.915000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 239
+		layer 11
+		basepoint(1.800000,3.990000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 240
+		layer 11
+		basepoint(1.800000,4.065000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 241
+		layer 11
+		basepoint(1.800000,3.500000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.090000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 242
+		layer 11
+		basepoint(1.800000,4.140000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.160000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 243
+		layer 11
+		basepoint(1.800000,3.500000,0.284400)
+		v1(0.100000,0,0)
+		v2(0,0.800000,0)
+		hvector(0,0,0.010000)
+	</block>
+</conductor>
+<conductor>
+	name G2
+	<block>
+		name 244
+		layer 10
+		basepoint(2.160000,3.340000,0.250000)
+		v1(0.100000,0,0)
+		v2(0,0.160000,0)
+		hvector(0,0,0.043000)
+	</block>
+	<block>
+		name 245
+		layer 10
+		basepoint(2.160000,4.300000,0.250000)
+		v1(0.100000,0,0)
+		v2(0,0.160000,0)
+		hvector(0,0,0.043000)
+	</block>
+	<block>
+		name 246
+		layer 11
+		basepoint(2.160000,3.615000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 247
+		layer 11
+		basepoint(2.160000,3.690000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 248
+		layer 11
+		basepoint(2.160000,3.765000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 249
+		layer 11
+		basepoint(2.160000,3.840000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 250
+		layer 11
+		basepoint(2.160000,3.915000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 251
+		layer 11
+		basepoint(2.160000,3.990000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 252
+		layer 11
+		basepoint(2.160000,4.065000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 253
+		layer 11
+		basepoint(2.160000,3.500000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.090000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 254
+		layer 11
+		basepoint(2.160000,4.140000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.160000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 255
+		layer 11
+		basepoint(2.160000,3.500000,0.284400)
+		v1(0.100000,0,0)
+		v2(0,0.800000,0)
+		hvector(0,0,0.010000)
+	</block>
+</conductor>
+<conductor>
+	name G3
+	<block>
+		name 256
+		layer 10
+		basepoint(2.520000,3.340000,0.250000)
+		v1(0.100000,0,0)
+		v2(0,0.160000,0)
+		hvector(0,0,0.043000)
+	</block>
+	<block>
+		name 257
+		layer 10
+		basepoint(2.520000,4.300000,0.250000)
+		v1(0.100000,0,0)
+		v2(0,0.160000,0)
+		hvector(0,0,0.043000)
+	</block>
+	<block>
+		name 258
+		layer 11
+		basepoint(2.520000,3.615000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 259
+		layer 11
+		basepoint(2.520000,3.690000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 260
+		layer 11
+		basepoint(2.520000,3.765000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 261
+		layer 11
+		basepoint(2.520000,3.840000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 262
+		layer 11
+		basepoint(2.520000,3.915000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 263
+		layer 11
+		basepoint(2.520000,3.990000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 264
+		layer 11
+		basepoint(2.520000,4.065000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 265
+		layer 11
+		basepoint(2.520000,3.500000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.090000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 266
+		layer 11
+		basepoint(2.520000,4.140000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.160000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 267
+		layer 11
+		basepoint(2.520000,3.500000,0.284400)
+		v1(0.100000,0,0)
+		v2(0,0.800000,0)
+		hvector(0,0,0.010000)
+	</block>
+</conductor>
+<conductor>
+	name G4
+	<block>
+		name 268
+		layer 10
+		basepoint(2.880000,3.340000,0.250000)
+		v1(0.100000,0,0)
+		v2(0,0.160000,0)
+		hvector(0,0,0.043000)
+	</block>
+	<block>
+		name 269
+		layer 10
+		basepoint(2.880000,4.300000,0.250000)
+		v1(0.100000,0,0)
+		v2(0,0.160000,0)
+		hvector(0,0,0.043000)
+	</block>
+	<block>
+		name 270
+		layer 11
+		basepoint(2.880000,3.615000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 271
+		layer 11
+		basepoint(2.880000,3.690000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 272
+		layer 11
+		basepoint(2.880000,3.765000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 273
+		layer 11
+		basepoint(2.880000,3.840000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 274
+		layer 11
+		basepoint(2.880000,3.915000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 275
+		layer 11
+		basepoint(2.880000,3.990000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 276
+		layer 11
+		basepoint(2.880000,4.065000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 277
+		layer 11
+		basepoint(2.880000,3.500000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.090000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 278
+		layer 11
+		basepoint(2.880000,4.140000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.160000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 279
+		layer 11
+		basepoint(2.880000,3.500000,0.284400)
+		v1(0.100000,0,0)
+		v2(0,0.800000,0)
+		hvector(0,0,0.010000)
+	</block>
+</conductor>
+<conductor>
+	name G5
+	<block>
+		name 280
+		layer 10
+		basepoint(3.240000,3.340000,0.250000)
+		v1(0.100000,0,0)
+		v2(0,0.160000,0)
+		hvector(0,0,0.043000)
+	</block>
+	<block>
+		name 281
+		layer 10
+		basepoint(3.240000,4.300000,0.250000)
+		v1(0.100000,0,0)
+		v2(0,0.160000,0)
+		hvector(0,0,0.043000)
+	</block>
+	<block>
+		name 282
+		layer 11
+		basepoint(3.240000,3.615000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 283
+		layer 11
+		basepoint(3.240000,3.690000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 284
+		layer 11
+		basepoint(3.240000,3.765000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 285
+		layer 11
+		basepoint(3.240000,3.840000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 286
+		layer 11
+		basepoint(3.240000,3.915000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 287
+		layer 11
+		basepoint(3.240000,3.990000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 288
+		layer 11
+		basepoint(3.240000,4.065000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.050000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 289
+		layer 11
+		basepoint(3.240000,3.500000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.090000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 290
+		layer 11
+		basepoint(3.240000,4.140000,0.251400)
+		v1(0.100000,0,0)
+		v2(0,0.160000,0)
+		hvector(0,0,0.033000)
+	</block>
+	<block>
+		name 291
+		layer 11
+		basepoint(3.240000,3.500000,0.284400)
+		v1(0.100000,0,0)
+		v2(0,0.800000,0)
+		hvector(0,0,0.010000)
+	</block>
+</conductor>
+<conductor>
+	name 13
+	<block>
+		name 292
+		layer 6
+		basepoint(1.346000,3.136000,-0.100000)
+		v1(2.448000,0,0)
+		v2(0,1.528000,0)
+		hvector(0,0,0.100000)
+	</block>
+</conductor>
+<layer>
+	name SUBSTRATE
+	id 6
+	type substrate
+</layer>
+<layer>
+	name FOX_C
+	id 12
+	type dielectric
+</layer>
+<layer>
+	name POD
+	id 13
+	type interconnect
+	wmin 0.036000
+</layer>
+<layer>
+	name FOX_B
+	id 14
+	type dielectric
+</layer>
+<layer>
+	name NOD
+	id 9
+	type interconnect
+	wmin 0.036000
+</layer>
+<layer>
+	name NOD_RDiffConf
+	id 15
+	type dielectric
+</layer>
+<layer>
+	name FOX_A
+	id 16
+	type dielectric
+</layer>
+<layer>
+	name n_fpoly
+	id 10
+	type interconnect
+	wmin 0.027000
+</layer>
+<layer>
+	name GOX
+	id 17
+	type dielectric
+</layer>
+<layer>
+	name n_gpoly
+	id 11
+	type interconnect
+	wmin 0.027000
+</layer>
+<layer>
+	name n_gpoly_FinGox
+	id 4
+	type dielectric
+</layer>
+<layer>
+	name n_gpoly_FinChnl
+	id 5
+	type dielectric
+</layer>
+<layer>
+	name HK_n_gpoly
+	id 2
+	type dielectric
+</layer>
+<layer>
+	name SPACER
+	id 1
+	type dielectric
+</layer>
+<layer>
+	name LINER
+	id 0
+	type dielectric
+</layer>
+<layer>
+	name ILD_C
+	id 18
+	type dielectric
+</layer>
+<layer>
+	name ILD_B
+	id 19
+	type dielectric
+</layer>
+<layer>
+	name M1
+	id 7
+	type interconnect
+	wmin 0.045000
+</layer>
+<layer>
+	name ILD_A
+	id 20
+	type dielectric
+</layer>
+<layer>
+	name IMD1a
+	id 21
+	type dielectric
+</layer>
+<layer>
+	name IMD1b
+	id 3
+	type dielectric
+</layer>
+<layer>
+	name IMD1c
+	id 22
+	type dielectric
+</layer>
+<layer>
+	name IMD1d
+	id 23
+	type dielectric
+</layer>
+<layer>
+	name IMD2a
+	id 24
+	type dielectric
+</layer>
+<layer>
+	name M2
+	id 25
+	type interconnect
+	wmin 0.045000
+</layer>
+<layer>
+	name IMD2b
+	id 26
+	type dielectric
+</layer>
+<layer>
+	name IMD2c
+	id 27
+	type dielectric
+</layer>
+<layer>
+	name IMD2d
+	id 28
+	type dielectric
+</layer>
+<layer>
+	name IMD3a
+	id 29
+	type dielectric
+</layer>
+<layer>
+	name M3
+	id 30
+	type interconnect
+	wmin 0.045000
+</layer>
+<layer>
+	name IMD3b
+	id 31
+	type dielectric
+</layer>
+<layer>
+	name IMD3c
+	id 32
+	type dielectric
+</layer>
+<layer>
+	name IMD3d
+	id 33
+	type dielectric
+</layer>
+<layer>
+	name IMD4a
+	id 34
+	type dielectric
+</layer>
+<layer>
+	name M4
+	id 35
+	type interconnect
+	wmin 0.045000
+</layer>
+<layer>
+	name IMD4b
+	id 36
+	type dielectric
+</layer>
+<layer>
+	name IMD4c
+	id 37
+	type dielectric
+</layer>
+<layer>
+	name IMD4d
+	id 38
+	type dielectric
+</layer>
+<layer>
+	name PASS3a
+	id 39
+	type dielectric
+</layer>
+<layer>
+	name PASS3b
+	id 40
+	type dielectric
+</layer>
+<layer>
+	name PASS4
+	id 41
+	type dielectric
+</layer>
+<layer>
+	name n_odCont
+	id 8
+	type via
+</layer>
+<layer>
+	name p_odCont
+	id 42
+	type via
+</layer>
+<layer>
+	name n_weltap
+	id 43
+	type via
+</layer>
+<layer>
+	name p_weltap
+	id 44
+	type via
+</layer>
+<layer>
+	name VIA3
+	id 45
+	type via
+</layer>
+<layer>
+	name VIA2
+	id 46
+	type via
+</layer>
+<layer>
+	name VIA1
+	id 47
+	type via
+</layer>
+<task>
+	<capacitance>
+		S1
+	</capacitance>
+</task>
+<task>
+	<capacitance>
+		D1
+	</capacitance>
+</task>
+<task>
+	<capacitance>
+		D2
+	</capacitance>
+</task>
+<task>
+	<capacitance>
+		D3
+	</capacitance>
+</task>
+<task>
+	<capacitance>
+		D4
+	</capacitance>
+</task>
+<task>
+	<capacitance>
+		D5
+	</capacitance>
+</task>
+<task>
+	<capacitance>
+		G1
+	</capacitance>
+</task>
+<task>
+	<capacitance>
+		G2
+	</capacitance>
+</task>
+<task>
+	<capacitance>
+		G3
+	</capacitance>
+</task>
+<task>
+	<capacitance>
+		G4
+	</capacitance>
+</task>
+<task>
+	<capacitance>
+		G5
+	</capacitance>
+</task>
+</cap3d>

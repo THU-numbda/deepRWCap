@@ -1,0 +1,18 @@
+***** QuickCap P-2019.03-SP1, Tue Feb 25 17:04:44 2025 *****
+*       COMMAND LINE:  quickcap -MPP1 -d 0.2% -spice -0 -matrix quc/cap3d_801.cap3d.quc.cap
+*
+*    INPUT FILE:  quc/cap3d_801.cap3d.quc.cap
+*
+*  Goal:   [-d] +/-0.2%
+*
+******************************************************
+
+Cp1 G S 0.5735fF * (+/-0.31%)
+Cp2 G ln_42 0.04162fF * (+/-0.79%)
+Cp3 G ln_8 0.02084fF * (+/-0.95%)
+Cp4 G D 0.5795fF * (+/-0.31%)
+Cp5 G ln_14 2.44e-18 * (+/-2.8%)
+Cp6 G ln_13 2.547e-18 * (+/-2.7%)
+Cp7 G ln_7 0.02084fF * (+/-0.96%)
+** G 1.241fF * (+/-0.2%) (total)
+.END

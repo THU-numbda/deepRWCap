@@ -1,0 +1,1441 @@
+<cap3d>
+<window>
+	name NoLayerALRDLM4_3d6000_10d0000
+	v1(-84.600000,-84.600000,-0.100000)
+	v2(226.801000,264.600000,91.080000)
+</window>
+<plate_medium>
+	name SUB_FILL
+	diel 1.000000
+	z_top 0.000000
+</plate_medium>
+<plate_medium>
+	name FOXA
+	diel 3.900000
+	z_top 0.194700
+</plate_medium>
+<plate_medium>
+	name FOXB
+	diel 3.900000
+	z_top 0.262200
+</plate_medium>
+<plate_medium>
+	name tox
+	diel 4.200000
+	z_top 0.265000
+</plate_medium>
+<plate_medium>
+	name LINER
+	diel 7.000000
+	z_top 0.295000
+</plate_medium>
+<plate_medium>
+	name ILD1b1
+	diel 4.000000
+	z_top 0.415000
+</plate_medium>
+<plate_medium>
+	name ILD1b2
+	diel 4.000000
+	z_top 0.435000
+</plate_medium>
+<plate_medium>
+	name IMD1a
+	diel 5.200000
+	z_top 0.460000
+</plate_medium>
+<plate_medium>
+	name IMD1b
+	diel 2.900000
+	z_top 0.515000
+</plate_medium>
+<plate_medium>
+	name IMD2a
+	diel 5.200000
+	z_top 0.540000
+</plate_medium>
+<plate_medium>
+	name IMD2b
+	diel 2.900000
+	z_top 0.570000
+</plate_medium>
+<plate_medium>
+	name IMD2c1
+	diel 2.550000
+	z_top 0.600000
+</plate_medium>
+<plate_medium>
+	name IMD2c2
+	diel 2.550000
+	z_top 0.700000
+</plate_medium>
+<plate_medium>
+	name IMD3a
+	diel 5.200000
+	z_top 0.725000
+</plate_medium>
+<plate_medium>
+	name IMD3b
+	diel 2.900000
+	z_top 0.755000
+</plate_medium>
+<plate_medium>
+	name IMD3c1
+	diel 2.550000
+	z_top 0.785000
+</plate_medium>
+<plate_medium>
+	name IMD3c2
+	diel 2.550000
+	z_top 0.885000
+</plate_medium>
+<plate_medium>
+	name IMD4a
+	diel 5.200000
+	z_top 0.910000
+</plate_medium>
+<plate_medium>
+	name IMD4b
+	diel 2.900000
+	z_top 0.940000
+</plate_medium>
+<plate_medium>
+	name IMD4c1
+	diel 2.550000
+	z_top 0.970000
+</plate_medium>
+<plate_medium>
+	name IMD4c2
+	diel 2.550000
+	z_top 1.070000
+</plate_medium>
+<plate_medium>
+	name IMD5a
+	diel 5.200000
+	z_top 1.095000
+</plate_medium>
+<plate_medium>
+	name IMD5b
+	diel 2.900000
+	z_top 1.125000
+</plate_medium>
+<plate_medium>
+	name IMD5c1
+	diel 2.550000
+	z_top 1.155000
+</plate_medium>
+<plate_medium>
+	name IMD5c2
+	diel 2.550000
+	z_top 1.255000
+</plate_medium>
+<plate_medium>
+	name IMD6a
+	diel 5.200000
+	z_top 1.280000
+</plate_medium>
+<plate_medium>
+	name IMD6b
+	diel 2.900000
+	z_top 1.310000
+</plate_medium>
+<plate_medium>
+	name IMD6c1
+	diel 2.550000
+	z_top 1.340000
+</plate_medium>
+<plate_medium>
+	name IMD6c2
+	diel 2.550000
+	z_top 1.440000
+</plate_medium>
+<plate_medium>
+	name IMD7a
+	diel 5.200000
+	z_top 1.465000
+</plate_medium>
+<plate_medium>
+	name IMD7b
+	diel 2.900000
+	z_top 1.495000
+</plate_medium>
+<plate_medium>
+	name IMD7c1
+	diel 2.550000
+	z_top 1.525000
+</plate_medium>
+<plate_medium>
+	name IMD7c2
+	diel 2.550000
+	z_top 1.625000
+</plate_medium>
+<plate_medium>
+	name IMD8a
+	diel 5.200000
+	z_top 1.650000
+</plate_medium>
+<plate_medium>
+	name IMD8b
+	diel 2.900000
+	z_top 1.680000
+</plate_medium>
+<plate_medium>
+	name IMD8c1
+	diel 2.550000
+	z_top 1.710000
+</plate_medium>
+<plate_medium>
+	name IMD8c2
+	diel 2.550000
+	z_top 1.810000
+</plate_medium>
+<plate_medium>
+	name IMD9a
+	diel 5.200000
+	z_top 1.885000
+</plate_medium>
+<plate_medium>
+	name IMD9b1
+	diel 4.200000
+	z_top 2.745000
+</plate_medium>
+<plate_medium>
+	name IMD9b2
+	diel 4.200000
+	z_top 3.895000
+</plate_medium>
+<plate_medium>
+	name IMD10a
+	diel 5.200000
+	z_top 3.970000
+</plate_medium>
+<plate_medium>
+	name IMD10b1
+	diel 4.200000
+	z_top 4.830000
+</plate_medium>
+<plate_medium>
+	name IMD10b2
+	diel 4.200000
+	z_top 5.980000
+</plate_medium>
+<plate_medium>
+	name PASS1
+	diel 5.200000
+	z_top 6.055000
+</plate_medium>
+<plate_medium>
+	name PASS2
+	diel 4.200000
+	z_top 6.455000
+</plate_medium>
+<plate_medium>
+	name PASS3
+	diel 7.000000
+	z_top 6.530000
+</plate_medium>
+<plate_medium>
+	name PASS4
+	diel 4.200000
+	z_top 6.780000
+</plate_medium>
+<plate_medium>
+	name PASS5
+	diel 4.200000
+	z_top 7.180000
+</plate_medium>
+<plate_medium>
+	name PASS6
+	diel 7.000000
+	z_top 7.780000
+</plate_medium>
+<plate_medium>
+	name TOP_FILL
+	diel 1.000000
+	z_top 91.080000
+</plate_medium>
+<medium>
+	name noname
+	<block>
+		layer 0
+		basepoint(7.784000,-0.496000,7.180000)
+		v1(4.232000,0,0)
+		v2(0,180.992000,0)
+		hvector(0,0,1.946700)
+	</block>
+	diel 7.000000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 0
+		basepoint(20.024000,-0.496000,7.180000)
+		v1(4.232000,0,0)
+		v2(0,180.992000,0)
+		hvector(0,0,1.946700)
+	</block>
+	diel 7.000000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 0
+		basepoint(32.264000,-0.496000,7.180000)
+		v1(4.232000,0,0)
+		v2(0,180.992000,0)
+		hvector(0,0,1.946700)
+	</block>
+	diel 7.000000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 0
+		basepoint(44.504000,-0.496000,7.180000)
+		v1(4.232000,0,0)
+		v2(0,41.492000,0)
+		hvector(0,0,1.946700)
+	</block>
+	diel 7.000000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 0
+		basepoint(44.504000,44.504000,7.180000)
+		v1(4.232000,0,0)
+		v2(0,90.992000,0)
+		hvector(0,0,1.946700)
+	</block>
+	diel 7.000000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 0
+		basepoint(44.504000,139.004000,7.180000)
+		v1(4.232000,0,0)
+		v2(0,41.492000,0)
+		hvector(0,0,1.946700)
+	</block>
+	diel 7.000000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 0
+		basepoint(56.744000,-0.496000,7.180000)
+		v1(4.232000,0,0)
+		v2(0,41.492000,0)
+		hvector(0,0,1.946700)
+	</block>
+	diel 7.000000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 0
+		basepoint(56.744000,44.504000,7.180000)
+		v1(4.232000,0,0)
+		v2(0,90.992000,0)
+		hvector(0,0,1.946700)
+	</block>
+	diel 7.000000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 0
+		basepoint(56.744000,139.004000,7.180000)
+		v1(4.232000,0,0)
+		v2(0,41.492000,0)
+		hvector(0,0,1.946700)
+	</block>
+	diel 7.000000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 0
+		basepoint(68.984000,-0.496000,7.180000)
+		v1(4.232000,0,0)
+		v2(0,41.492000,0)
+		hvector(0,0,1.946700)
+	</block>
+	diel 7.000000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 0
+		basepoint(68.984000,44.504000,7.180000)
+		v1(4.232000,0,0)
+		v2(0,90.992000,0)
+		hvector(0,0,1.946700)
+	</block>
+	diel 7.000000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 0
+		basepoint(68.984000,139.004000,7.180000)
+		v1(4.232000,0,0)
+		v2(0,41.492000,0)
+		hvector(0,0,1.946700)
+	</block>
+	diel 7.000000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 0
+		basepoint(81.224000,-0.496000,7.180000)
+		v1(4.232000,0,0)
+		v2(0,41.492000,0)
+		hvector(0,0,1.946700)
+	</block>
+	diel 7.000000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 0
+		basepoint(81.224000,44.504000,7.180000)
+		v1(4.232000,0,0)
+		v2(0,90.992000,0)
+		hvector(0,0,1.946700)
+	</block>
+	diel 7.000000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 0
+		basepoint(81.224000,139.004000,7.180000)
+		v1(4.232000,0,0)
+		v2(0,41.492000,0)
+		hvector(0,0,1.946700)
+	</block>
+	diel 7.000000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 0
+		basepoint(93.464000,-0.496000,7.180000)
+		v1(4.232000,0,0)
+		v2(0,41.492000,0)
+		hvector(0,0,1.946700)
+	</block>
+	diel 7.000000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 0
+		basepoint(93.464000,44.504000,7.180000)
+		v1(4.232000,0,0)
+		v2(0,90.992000,0)
+		hvector(0,0,1.946700)
+	</block>
+	diel 7.000000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 0
+		basepoint(93.464000,139.004000,7.180000)
+		v1(4.232000,0,0)
+		v2(0,41.492000,0)
+		hvector(0,0,1.946700)
+	</block>
+	diel 7.000000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 0
+		basepoint(105.704000,-0.496000,7.180000)
+		v1(4.232000,0,0)
+		v2(0,180.992000,0)
+		hvector(0,0,1.946700)
+	</block>
+	diel 7.000000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 0
+		basepoint(117.944000,-0.496000,7.180000)
+		v1(4.232000,0,0)
+		v2(0,180.992000,0)
+		hvector(0,0,1.946700)
+	</block>
+	diel 7.000000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 0
+		basepoint(130.184000,-0.496000,7.180000)
+		v1(4.232000,0,0)
+		v2(0,180.992000,0)
+		hvector(0,0,1.946700)
+	</block>
+	diel 7.000000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 1
+		basepoint(8.081600,-0.198400,6.780000)
+		v1(3.636800,0,0)
+		v2(0,180.396800,0)
+		hvector(0,0,1.838700)
+	</block>
+	diel 4.200000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 1
+		basepoint(20.321600,-0.198400,6.780000)
+		v1(3.636800,0,0)
+		v2(0,180.396800,0)
+		hvector(0,0,1.838700)
+	</block>
+	diel 4.200000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 1
+		basepoint(32.561600,-0.198400,6.780000)
+		v1(3.636800,0,0)
+		v2(0,180.396800,0)
+		hvector(0,0,1.838700)
+	</block>
+	diel 4.200000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 1
+		basepoint(44.801600,-0.198400,6.780000)
+		v1(3.636800,0,0)
+		v2(0,40.896800,0)
+		hvector(0,0,1.838700)
+	</block>
+	diel 4.200000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 1
+		basepoint(44.801600,44.801600,6.780000)
+		v1(3.636800,0,0)
+		v2(0,90.396800,0)
+		hvector(0,0,1.838700)
+	</block>
+	diel 4.200000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 1
+		basepoint(44.801600,139.301600,6.780000)
+		v1(3.636800,0,0)
+		v2(0,40.896800,0)
+		hvector(0,0,1.838700)
+	</block>
+	diel 4.200000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 1
+		basepoint(57.041600,-0.198400,6.780000)
+		v1(3.636800,0,0)
+		v2(0,40.896800,0)
+		hvector(0,0,1.838700)
+	</block>
+	diel 4.200000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 1
+		basepoint(57.041600,44.801600,6.780000)
+		v1(3.636800,0,0)
+		v2(0,90.396800,0)
+		hvector(0,0,1.838700)
+	</block>
+	diel 4.200000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 1
+		basepoint(57.041600,139.301600,6.780000)
+		v1(3.636800,0,0)
+		v2(0,40.896800,0)
+		hvector(0,0,1.838700)
+	</block>
+	diel 4.200000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 1
+		basepoint(69.281600,-0.198400,6.780000)
+		v1(3.636800,0,0)
+		v2(0,40.896800,0)
+		hvector(0,0,1.838700)
+	</block>
+	diel 4.200000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 1
+		basepoint(69.281600,44.801600,6.780000)
+		v1(3.636800,0,0)
+		v2(0,90.396800,0)
+		hvector(0,0,1.838700)
+	</block>
+	diel 4.200000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 1
+		basepoint(69.281600,139.301600,6.780000)
+		v1(3.636800,0,0)
+		v2(0,40.896800,0)
+		hvector(0,0,1.838700)
+	</block>
+	diel 4.200000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 1
+		basepoint(81.521600,-0.198400,6.780000)
+		v1(3.636800,0,0)
+		v2(0,40.896800,0)
+		hvector(0,0,1.838700)
+	</block>
+	diel 4.200000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 1
+		basepoint(81.521600,44.801600,6.780000)
+		v1(3.636800,0,0)
+		v2(0,90.396800,0)
+		hvector(0,0,1.838700)
+	</block>
+	diel 4.200000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 1
+		basepoint(81.521600,139.301600,6.780000)
+		v1(3.636800,0,0)
+		v2(0,40.896800,0)
+		hvector(0,0,1.838700)
+	</block>
+	diel 4.200000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 1
+		basepoint(93.761600,-0.198400,6.780000)
+		v1(3.636800,0,0)
+		v2(0,40.896800,0)
+		hvector(0,0,1.838700)
+	</block>
+	diel 4.200000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 1
+		basepoint(93.761600,44.801600,6.780000)
+		v1(3.636800,0,0)
+		v2(0,90.396800,0)
+		hvector(0,0,1.838700)
+	</block>
+	diel 4.200000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 1
+		basepoint(93.761600,139.301600,6.780000)
+		v1(3.636800,0,0)
+		v2(0,40.896800,0)
+		hvector(0,0,1.838700)
+	</block>
+	diel 4.200000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 1
+		basepoint(106.001600,-0.198400,6.780000)
+		v1(3.636800,0,0)
+		v2(0,180.396800,0)
+		hvector(0,0,1.838700)
+	</block>
+	diel 4.200000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 1
+		basepoint(118.241600,-0.198400,6.780000)
+		v1(3.636800,0,0)
+		v2(0,180.396800,0)
+		hvector(0,0,1.838700)
+	</block>
+	diel 4.200000
+</medium>
+<medium>
+	name noname
+	<block>
+		layer 1
+		basepoint(130.481600,-0.198400,6.780000)
+		v1(3.636800,0,0)
+		v2(0,180.396800,0)
+		hvector(0,0,1.838700)
+	</block>
+	diel 4.200000
+</medium>
+<conductor>
+	name GROUND
+	<block>
+		name 0
+		layer 2
+		basepoint(-84.599000,-84.599000,-0.100000)
+		v1(82.798000,0,0)
+		v2(0,349.198000,0)
+		hvector(0,0,0.100000)
+	</block>
+	<block>
+		name 1
+		layer 2
+		basepoint(-1.799000,-84.599000,-0.100000)
+		v1(145.799000,0,0)
+		v2(0,82.798000,0)
+		hvector(0,0,0.100000)
+	</block>
+	<block>
+		name 2
+		layer 2
+		basepoint(-1.799000,181.801000,-0.100000)
+		v1(145.799000,0,0)
+		v2(0,82.798000,0)
+		hvector(0,0,0.100000)
+	</block>
+	<block>
+		name 3
+		layer 2
+		basepoint(144.002000,-84.599000,-0.100000)
+		v1(82.798000,0,0)
+		v2(0,349.198000,0)
+		hvector(0,0,0.100000)
+	</block>
+</conductor>
+<conductor>
+	name 1__signalGND
+	<block>
+		name 4
+		layer 3
+		basepoint(8.280000,0.000000,6.780000)
+		v1(3.240000,0,0)
+		v2(0,180.000000,0)
+		hvector(0,0,1.500000)
+	</block>
+</conductor>
+<conductor>
+	name 2__signalGND
+	<block>
+		name 5
+		layer 3
+		basepoint(20.520000,0.000000,6.780000)
+		v1(3.240000,0,0)
+		v2(0,180.000000,0)
+		hvector(0,0,1.500000)
+	</block>
+</conductor>
+<conductor>
+	name 3__signalGND
+	<block>
+		name 6
+		layer 3
+		basepoint(32.760000,0.000000,6.780000)
+		v1(3.240000,0,0)
+		v2(0,180.000000,0)
+		hvector(0,0,1.500000)
+	</block>
+</conductor>
+<conductor>
+	name 4__signalGND
+	<block>
+		name 7
+		layer 3
+		basepoint(45.000000,0.000000,6.780000)
+		v1(3.240000,0,0)
+		v2(0,40.500000,0)
+		hvector(0,0,1.500000)
+	</block>
+</conductor>
+<conductor>
+	name 5__signalGND
+	<block>
+		name 8
+		layer 3
+		basepoint(45.000000,45.000000,6.780000)
+		v1(3.240000,0,0)
+		v2(0,90.000000,0)
+		hvector(0,0,1.500000)
+	</block>
+</conductor>
+<conductor>
+	name 6__signalGND
+	<block>
+		name 9
+		layer 3
+		basepoint(45.000000,139.500000,6.780000)
+		v1(3.240000,0,0)
+		v2(0,40.500000,0)
+		hvector(0,0,1.500000)
+	</block>
+</conductor>
+<conductor>
+	name 7__signalGND
+	<block>
+		name 10
+		layer 3
+		basepoint(57.240000,0.000000,6.780000)
+		v1(3.240000,0,0)
+		v2(0,40.500000,0)
+		hvector(0,0,1.500000)
+	</block>
+</conductor>
+<conductor>
+	name lNoLayerALRDLM4
+	<block>
+		name 11
+		layer 3
+		basepoint(57.240000,45.000000,6.780000)
+		v1(3.240000,0,0)
+		v2(0,90.000000,0)
+		hvector(0,0,1.500000)
+	</block>
+</conductor>
+<conductor>
+	name 9__signalGND
+	<block>
+		name 12
+		layer 3
+		basepoint(57.240000,139.500000,6.780000)
+		v1(3.240000,0,0)
+		v2(0,40.500000,0)
+		hvector(0,0,1.500000)
+	</block>
+</conductor>
+<conductor>
+	name 10__signalGND
+	<block>
+		name 13
+		layer 3
+		basepoint(69.480000,0.000000,6.780000)
+		v1(3.240000,0,0)
+		v2(0,40.500000,0)
+		hvector(0,0,1.500000)
+	</block>
+</conductor>
+<conductor>
+	name NoLayerALRDLM4
+	<block>
+		name 14
+		layer 3
+		basepoint(69.480000,45.000000,6.780000)
+		v1(3.240000,0,0)
+		v2(0,90.000000,0)
+		hvector(0,0,1.500000)
+	</block>
+</conductor>
+<conductor>
+	name 12__signalGND
+	<block>
+		name 15
+		layer 3
+		basepoint(69.480000,139.500000,6.780000)
+		v1(3.240000,0,0)
+		v2(0,40.500000,0)
+		hvector(0,0,1.500000)
+	</block>
+</conductor>
+<conductor>
+	name 13__signalGND
+	<block>
+		name 16
+		layer 3
+		basepoint(81.720000,0.000000,6.780000)
+		v1(3.240000,0,0)
+		v2(0,40.500000,0)
+		hvector(0,0,1.500000)
+	</block>
+</conductor>
+<conductor>
+	name rNoLayerALRDLM4
+	<block>
+		name 17
+		layer 3
+		basepoint(81.720000,45.000000,6.780000)
+		v1(3.240000,0,0)
+		v2(0,90.000000,0)
+		hvector(0,0,1.500000)
+	</block>
+</conductor>
+<conductor>
+	name 15__signalGND
+	<block>
+		name 18
+		layer 3
+		basepoint(81.720000,139.500000,6.780000)
+		v1(3.240000,0,0)
+		v2(0,40.500000,0)
+		hvector(0,0,1.500000)
+	</block>
+</conductor>
+<conductor>
+	name 16__signalGND
+	<block>
+		name 19
+		layer 3
+		basepoint(93.960000,0.000000,6.780000)
+		v1(3.240000,0,0)
+		v2(0,40.500000,0)
+		hvector(0,0,1.500000)
+	</block>
+</conductor>
+<conductor>
+	name 17__signalGND
+	<block>
+		name 20
+		layer 3
+		basepoint(93.960000,45.000000,6.780000)
+		v1(3.240000,0,0)
+		v2(0,90.000000,0)
+		hvector(0,0,1.500000)
+	</block>
+</conductor>
+<conductor>
+	name 18__signalGND
+	<block>
+		name 21
+		layer 3
+		basepoint(93.960000,139.500000,6.780000)
+		v1(3.240000,0,0)
+		v2(0,40.500000,0)
+		hvector(0,0,1.500000)
+	</block>
+</conductor>
+<conductor>
+	name 19__signalGND
+	<block>
+		name 22
+		layer 3
+		basepoint(106.200000,0.000000,6.780000)
+		v1(3.240000,0,0)
+		v2(0,180.000000,0)
+		hvector(0,0,1.500000)
+	</block>
+</conductor>
+<conductor>
+	name 20__signalGND
+	<block>
+		name 23
+		layer 3
+		basepoint(118.440000,0.000000,6.780000)
+		v1(3.240000,0,0)
+		v2(0,180.000000,0)
+		hvector(0,0,1.500000)
+	</block>
+</conductor>
+<conductor>
+	name 21__signalGND
+	<block>
+		name 24
+		layer 3
+		basepoint(130.680000,0.000000,6.780000)
+		v1(3.240000,0,0)
+		v2(0,180.000000,0)
+		hvector(0,0,1.500000)
+	</block>
+</conductor>
+<conductor>
+	name dNoLayerALRDLM4
+	<block>
+		name 25
+		layer 4
+		basepoint(-0.006600,-0.006600,0.970000)
+		v1(142.213200,0,0)
+		v2(0,180.013200,0)
+		hvector(0,0,0.030700)
+	</block>
+	<block>
+		name 25
+		layer 4
+		basepoint(-0.008800,-0.008800,1.000700)
+		v1(142.217600,0,0)
+		v2(0,180.017600,0)
+		hvector(0,0,0.030700)
+	</block>
+	<block>
+		name 25
+		layer 4
+		basepoint(-0.011000,-0.011000,1.031400)
+		v1(142.222000,0,0)
+		v2(0,180.022000,0)
+		hvector(0,0,0.030700)
+	</block>
+</conductor>
+<conductor>
+	name 23__signalGND
+	<block>
+		name 26
+		layer 2
+		basepoint(-1.799000,-1.799000,-0.100000)
+		v1(145.799000,0,0)
+		v2(0,183.598000,0)
+		hvector(0,0,0.100000)
+	</block>
+</conductor>
+<layer>
+	name SUBSTRATE
+	id 2
+	type substrate
+</layer>
+<layer>
+	name FOXA
+	id 5
+	type dielectric
+</layer>
+<layer>
+	name pactive
+	id 6
+	type interconnect
+	wmin 0.038700
+</layer>
+<layer>
+	name nactive
+	id 7
+	type interconnect
+	wmin 0.038700
+</layer>
+<layer>
+	name FOXB
+	id 8
+	type dielectric
+</layer>
+<layer>
+	name tox
+	id 9
+	type dielectric
+</layer>
+<layer>
+	name ppoly
+	id 10
+	type interconnect
+	wmin 0.027000
+</layer>
+<layer>
+	name npoly
+	id 11
+	type interconnect
+	wmin 0.027000
+</layer>
+<layer>
+	name SPACER
+	id 12
+	type dielectric
+</layer>
+<layer>
+	name LINER
+	id 13
+	type dielectric
+</layer>
+<layer>
+	name ILD1b1
+	id 14
+	type dielectric
+</layer>
+<layer>
+	name metal1
+	id 15
+	type interconnect
+	wmin 0.045000
+</layer>
+<layer>
+	name ILD1b2
+	id 16
+	type dielectric
+</layer>
+<layer>
+	name IMD1a
+	id 17
+	type dielectric
+</layer>
+<layer>
+	name IMD1b
+	id 18
+	type dielectric
+</layer>
+<layer>
+	name IMD2a
+	id 19
+	type dielectric
+</layer>
+<layer>
+	name IMD2b
+	id 20
+	type dielectric
+</layer>
+<layer>
+	name IMD2c1
+	id 21
+	type dielectric
+</layer>
+<layer>
+	name metal2
+	id 22
+	type interconnect
+	wmin 0.045000
+</layer>
+<layer>
+	name IMD2c2
+	id 23
+	type dielectric
+</layer>
+<layer>
+	name IMD3a
+	id 24
+	type dielectric
+</layer>
+<layer>
+	name IMD3b
+	id 25
+	type dielectric
+</layer>
+<layer>
+	name IMD3c1
+	id 26
+	type dielectric
+</layer>
+<layer>
+	name metal3
+	id 27
+	type interconnect
+	wmin 0.045000
+</layer>
+<layer>
+	name IMD3c2
+	id 28
+	type dielectric
+</layer>
+<layer>
+	name IMD4a
+	id 29
+	type dielectric
+</layer>
+<layer>
+	name IMD4b
+	id 30
+	type dielectric
+</layer>
+<layer>
+	name IMD4c1
+	id 31
+	type dielectric
+</layer>
+<layer>
+	name metal4
+	id 4
+	type interconnect
+	wmin 0.045000
+</layer>
+<layer>
+	name IMD4c2
+	id 32
+	type dielectric
+</layer>
+<layer>
+	name IMD5a
+	id 33
+	type dielectric
+</layer>
+<layer>
+	name IMD5b
+	id 34
+	type dielectric
+</layer>
+<layer>
+	name IMD5c1
+	id 35
+	type dielectric
+</layer>
+<layer>
+	name metal5
+	id 36
+	type interconnect
+	wmin 0.045000
+</layer>
+<layer>
+	name IMD5c2
+	id 37
+	type dielectric
+</layer>
+<layer>
+	name IMD6a
+	id 38
+	type dielectric
+</layer>
+<layer>
+	name IMD6b
+	id 39
+	type dielectric
+</layer>
+<layer>
+	name IMD6c1
+	id 40
+	type dielectric
+</layer>
+<layer>
+	name metal6
+	id 41
+	type interconnect
+	wmin 0.045000
+</layer>
+<layer>
+	name IMD6c2
+	id 42
+	type dielectric
+</layer>
+<layer>
+	name IMD7a
+	id 43
+	type dielectric
+</layer>
+<layer>
+	name IMD7b
+	id 44
+	type dielectric
+</layer>
+<layer>
+	name IMD7c1
+	id 45
+	type dielectric
+</layer>
+<layer>
+	name metal7
+	id 46
+	type interconnect
+	wmin 0.045000
+</layer>
+<layer>
+	name IMD7c2
+	id 47
+	type dielectric
+</layer>
+<layer>
+	name IMD8a
+	id 48
+	type dielectric
+</layer>
+<layer>
+	name IMD8b
+	id 49
+	type dielectric
+</layer>
+<layer>
+	name IMD8c1
+	id 50
+	type dielectric
+</layer>
+<layer>
+	name metal8
+	id 51
+	type interconnect
+	wmin 0.045000
+</layer>
+<layer>
+	name IMD8c2
+	id 52
+	type dielectric
+</layer>
+<layer>
+	name IMD9a
+	id 53
+	type dielectric
+</layer>
+<layer>
+	name IMD9b1
+	id 54
+	type dielectric
+</layer>
+<layer>
+	name metal9
+	id 55
+	type interconnect
+	wmin 0.450000
+</layer>
+<layer>
+	name IMD9b2
+	id 56
+	type dielectric
+</layer>
+<layer>
+	name IMD10a
+	id 57
+	type dielectric
+</layer>
+<layer>
+	name IMD10b1
+	id 58
+	type dielectric
+</layer>
+<layer>
+	name metal10
+	id 59
+	type interconnect
+	wmin 0.450000
+</layer>
+<layer>
+	name IMD10b2
+	id 60
+	type dielectric
+</layer>
+<layer>
+	name PASS1
+	id 61
+	type dielectric
+</layer>
+<layer>
+	name PASS2
+	id 62
+	type dielectric
+</layer>
+<layer>
+	name PASS3
+	id 63
+	type dielectric
+</layer>
+<layer>
+	name PASS4
+	id 64
+	type dielectric
+</layer>
+<layer>
+	name alpa_inter
+	id 3
+	type interconnect
+	wmin 1.800000
+</layer>
+<layer>
+	name PASS5
+	id 1
+	type dielectric
+</layer>
+<layer>
+	name PASS6
+	id 0
+	type dielectric
+</layer>
+<layer>
+	name via1
+	id 65
+	type via
+</layer>
+<layer>
+	name PA
+	id 66
+	type via
+</layer>
+<layer>
+	name via2
+	id 67
+	type via
+</layer>
+<layer>
+	name via3
+	id 68
+	type via
+</layer>
+<layer>
+	name via4
+	id 69
+	type via
+</layer>
+<layer>
+	name via5
+	id 70
+	type via
+</layer>
+<layer>
+	name via6
+	id 71
+	type via
+</layer>
+<layer>
+	name via7
+	id 72
+	type via
+</layer>
+<layer>
+	name via8
+	id 73
+	type via
+</layer>
+<layer>
+	name via9
+	id 74
+	type via
+</layer>
+<layer>
+	name n_odCont
+	id 75
+	type via
+</layer>
+<layer>
+	name p_odCont
+	id 76
+	type via
+</layer>
+<layer>
+	name npolyCont
+	id 77
+	type via
+</layer>
+<layer>
+	name ppolyCont
+	id 78
+	type via
+</layer>
+<task>
+	<capacitance>
+		NoLayerALRDLM4
+	</capacitance>
+</task>
+<parameter>
+	c-ratio 0.950000
+</parameter>
+</cap3d>

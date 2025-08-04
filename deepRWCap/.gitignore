@@ -1,0 +1,9 @@
+rwcap_comparison*
+build
+bin
+.vscode
+*.log
+build/
+bin/
+*.o
+*.out
