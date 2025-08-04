@@ -1,8 +1,3 @@
-/**
- * @file ggft_solver.h
- * @author huangjc
- * @date 2023-10-24
- */
 #pragma once
 
 #include <fstream>
@@ -20,7 +15,7 @@
 // #include "utils/logger.h"
 
 
-namespace rwcap {
+namespace deeprwcap {
 
 // using namespace Eigen;
 
@@ -48,31 +43,6 @@ public:
     static constexpr int N2 = 3*NN*(N-1);
     static constexpr int N3 = 6*NN;
 
-    // static offset_t idx_b_inverse(int i) {
-    //     int face_id = i / NN;
-    //     int xid = (i % NN) % N;
-    //     int yid = (i % NN) / N;
-
-    //     offset_t res((double)(2*xid+1)/N - 1, (double)(2*yid+1)/N - 1, -1);
-    //     if (face_id == 1) {
-    //         res.z = 1;
-    //     } else if (face_id == 2) {
-    //         res.z = res.y;
-    //         res.y = -1;
-    //     } else if (face_id == 3) {
-    //         res.z = res.y;
-    //         res.y = 1;
-    //     } else if (face_id == 4) {
-    //         res.z = res.y;
-    //         res.y = res.x;
-    //         res.x = -1;
-    //     } else if (face_id == 5) {
-    //         res.z = res.y;
-    //         res.y = res.x;
-    //         res.x = 1;
-    //     }
-    //     return res;
-    // }
 
     // for N^3 internal cells
     static constexpr int idx(int i, int j, int k) { return i + j * N + k * NN; }
@@ -265,30 +235,6 @@ class ggft_solver {
         }
     }
 
-    // void dump_matrix(const vectorx& mat) {
-    //     if (!outfile.is_open()) return;
-    //     // sparse_matrix mat(rows,cols);
-    //     // std::ofstream outfile(filename, std::ios::out | std::ios::binary |
-    //     // std::ios::app);
-    //     outfile.write((char*)(mat.data()), mat.size() * sizeof(real));
-    //     // outfile.close();
-    // }
-    // void dump_matrix(std::ofstream& outfile, const vectorx& mat) {
-    //     if (!outfile.is_open()) return;
-    //     // sparse_matrix mat(rows,cols);
-    //     // std::ofstream outfile(filename, std::ios::out | std::ios::binary |
-    //     // std::ios::app);
-    //     outfile.write((char*)(mat.data()), mat.size() * sizeof(real));
-    //     // outfile.close();
-    // }
-
-    // void dump_matrix(const vectorx& mat, std::string filename, bool create) {
-    //     // sparse_matrix mat(rows,cols);
-    //     return;
-    //     std::ofstream outfile(filename, std::ios::out | std::ios::binary);
-    //     outfile.write((char*)(mat.data()), mat.size() * sizeof(double));
-    //     outfile.close();
-    // }
 
     void laplace(int i, int j, int k);
     void dielectric(int i, int j, int k);
@@ -299,4 +245,4 @@ class ggft_solver {
     }
 };
 
-}  // namespace rwcap
+}  // namespace deeprwcap

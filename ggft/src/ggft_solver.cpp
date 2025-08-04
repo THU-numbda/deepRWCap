@@ -1,13 +1,8 @@
-/**
- * @file ggft_solver.cpp
- * @author huangjc
- * @date 2023-10-24
- */
 #include "ggft_solver.h"
 #include <chrono>
 #include <sys/stat.h>
 
-namespace rwcap {
+namespace deeprwcap {
 
 bool create_directory_if_not_exists(const std::string& path) {
     struct stat st;
@@ -118,13 +113,13 @@ void ggft_solver::bootstrap_solve() {
         solverA.analyzePattern(A);
         solverA.factorize(A);
         single_gft_inner = solverA.solve(ek);
-        std::cout << "iter " << solverA.iterations() << " error " << solverA.error() << std::endl;
+        // std::cout << "iter " << solverA.iterations() << " error " << solverA.error() << std::endl;
         single_wvtz_inner = solverA.solve(ek_dz);
-        std::cout << "iter " << solverA.iterations() << " error " << solverA.error() << std::endl;
+        // std::cout << "iter " << solverA.iterations() << " error " << solverA.error() << std::endl;
         single_wvtx_inner = solverA.solve(ek_dx);
-        std::cout << "iter " << solverA.iterations() << " error " << solverA.error() << std::endl;
+        // std::cout << "iter " << solverA.iterations() << " error " << solverA.error() << std::endl;
         single_wvty_inner = solverA.solve(ek_dy);
-        std::cout << "iter " << solverA.iterations() << " error " << solverA.error() << std::endl;
+        // std::cout << "iter " << solverA.iterations() << " error " << solverA.error() << std::endl;
         // solverA_stable.analyzePattern(A);
         solverA_lu.analyzePattern(A);
 
@@ -637,22 +632,7 @@ bool ggft_solver::solve(const solver_code code) {
     }
     // postprocess(code);
     return true;
-    // if (code == solver_code::GFT) {
-    //     dump_matrix(file_gft, gft);
-    // } else if (code == solver_code::WVTZ) {
-    //     dump_matrix(file_wvtz, gft);
-    // } else if (code == solver_code::WVTX) {
-    //     dump_matrix(file_wvtx, gft);
-    // } else if (code == solver_code::WVTY) {
-    //     dump_matrix(file_wvty, gft);
-    // }
-    // solve_count++;
-    // if (solve_count == 1000) {
-    //     quit();
-    // }
-    
-    // dump_matrix(gft, "gft_sol.bin");
-    // dump_matrix(gft);
+
 }
 
 void ggft_solver::postprocess(const solver_code code) {
@@ -704,4 +684,4 @@ void ggft_solver::postprocess(const solver_code code) {
     }
 }
 
-}  // namespace rwcap
+}  // namespace deeprwcap

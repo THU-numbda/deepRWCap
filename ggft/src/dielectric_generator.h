@@ -3,7 +3,7 @@
 
 #include "ggft_solver.h"
 
-namespace rwcap {
+namespace deeprwcap {
 
 	struct dielectric_block {
 		// center
