@@ -8,7 +8,7 @@ set -e
 ZENODO_RECORD="15868775"
 BASE_URL="https://zenodo.org/records/${ZENODO_RECORD}/files"
 
-FILES=("gradZ100k.bin" "greens100k.bin")
+FILES=("gradZ100k.bin" "greens100k.bin" "example.structure")
 
 # Check if curl is available
 if ! command -v curl &> /dev/null; then

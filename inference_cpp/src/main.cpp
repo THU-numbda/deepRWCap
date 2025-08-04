@@ -17,7 +17,7 @@ int main() {
     
     // Structure file
     int numSamples = 2;
-    std::string structureDataPath = "/workspace/datasets/structure_info_microwalk_1_0/cap3d.240200.0.cap_simple_debug.cap3d.structure";
+    std::string structureDataPath = "/workspace/datasets/example.structure";
     std::vector<float> layerStructures;
     std::vector<float> cuboidStructures;
     greensSolver.readStructureFile(structureDataPath, layerStructures, cuboidStructures, numSamples, true);
