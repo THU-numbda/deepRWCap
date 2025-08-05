@@ -95,7 +95,7 @@ DATASET_BASE_CONFIGS = {
     "gradient_harder": {
         "path": ["/workspace/ggft/dataset/gradient.bin"],
         "input_mode": "dielectric",
-        "N": 23,=
+        "N": 23,
         "n_structures": 16,
         "dtype": np.float64
     }
