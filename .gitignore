@@ -1,1 +1,5 @@
 .vscode
+__pycache__
+models
+runs
+dataset

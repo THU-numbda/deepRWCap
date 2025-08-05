@@ -45,7 +45,7 @@ class FaceSolver(nn.Module):
     def __init__(self, in_channels=23, pe_mode="grid"):
         super().__init__()
         self.pe_mode = pe_mode
-        self.pe = PosEmbed2D(mode=pe_mode)
+        self.pe = PosEmbed2D()
         if pe_mode == 'grid':
             in_channels = in_channels + self.pe.pe.shape[1]
 
@@ -76,7 +76,7 @@ class FaceSolverPlus(nn.Module):
     def __init__(self, in_channels=23, pe_mode="grid"):
         super().__init__()
         self.pe_mode = pe_mode
-        self.pe = PosEmbed2D(mode=pe_mode)
+        self.pe = PosEmbed2D()
         if pe_mode == 'grid':
             in_channels = in_channels + self.pe.pe.shape[1]
 
@@ -205,7 +205,7 @@ class FaceSelector(nn.Module):
         return logits
       
 
-class FaceSelectorWeightUnified(nn.Module):
+class FaceSelectorWeight(nn.Module):
     def __init__(self, in_channels=1, name="FaceSelectorUnified_v1"):
         super().__init__()
         self.name = name
