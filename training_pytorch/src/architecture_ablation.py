@@ -9,10 +9,7 @@ ACT = nn.GELU
 # ACT = nn.SiLU
 
 class PosEmbed2D(nn.Module):
-    def __init__(self,
-                 grid_size=(23, 23),
-                 mode="grid",
-                 fourier_dim=2):
+    def __init__(self, grid_size=(23, 23)):
         super().__init__()
         H, W = grid_size
         y, x = torch.linspace(0, 1, H), torch.linspace(0, 1, W)
@@ -66,14 +63,14 @@ class ConvBlock(nn.Module):
         return self.block(x)
 
 
-class FaceSolverTiny(nn.Module): # 2.42e-8
+class FaceSolver(nn.Module):
     def __init__(self, in_channels=23, pe_mode="grid", depthwise=True):
         super().__init__()
         self.pe_mode = pe_mode
         if pe_mode == 'learnable':
             self.pe = LearnablePosEmbed2D()
         else:
-            self.pe = PosEmbed2D(mode=pe_mode)
+            self.pe = PosEmbed2D()
         if pe_mode != 'none':
             in_channels = in_channels + self.pe.pe.shape[1]
 
@@ -99,15 +96,15 @@ class FaceSolverTiny(nn.Module): # 2.42e-8
 
         self.head = nn.Conv2d(2, 1, 1, bias=True)
 
-    def forward(self, x):                # x: [B, 23, 23, 23]
+    def forward(self, x):
         if self.pe_mode != 'none':
             x = self.pe(x)
-        x = self.z_weight(x)             # [B, 8, 23, 23]
+        x = self.z_weight(x)
         x = self.blocks(x)
-        return self.head(x)              # [B, 1, 23, 23]
+        return self.head(x)
     
 
-class FaceSolver3D(nn.Module): # 2.42e-8
+class FaceSolver3D(nn.Module):
     def __init__(self):
         super().__init__()
         self.net = nn.Sequential(
@@ -164,17 +161,17 @@ class FaceSolverMLP(nn.Module):
         return x
 
 class FacePredictor(nn.Module):
-    def __init__(self, depth=23, height=23, width=23, in_channels=1, name="BeefedFacePredictor", head_mode="relu", pe_mode="grid", solver="depthwise"):
+    def __init__(self, name="BeefedFacePredictor", head_mode="relu", pe_mode="grid", solver="depthwise"):
         super().__init__()
         self.name = name
         if solver == "mlp":
             self.solver = FaceSolverMLP()
         elif solver == "depthwise":
-            self.solver = FaceSolverTiny(pe_mode=pe_mode, depthwise=True)
+            self.solver = FaceSolver(pe_mode=pe_mode, depthwise=True)
         elif solver == "3d":
             self.solver = FaceSolver3D()
         else:
-            self.solver = FaceSolverTiny(pe_mode=pe_mode, depthwise=False)
+            self.solver = FaceSolver(pe_mode=pe_mode, depthwise=False)
         self.head_mode = head_mode
 
     def forward(self, x):
