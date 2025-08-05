@@ -8,6 +8,6 @@ It can also be used to generate training data for a machine learning model.
 For example, to generate random dielectric configurations, run
 
 ```bash
-make
-bin/ggft <num_threads> <num_solves> <output_folder>
+make -j
+bin/ggft <nthreads> <total_count> <output_folder> <poisson/gradient>
 ```
