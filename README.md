@@ -48,12 +48,10 @@ Each sample contains:
 
 ### Setup
 
-Install the core dependencies on the container with:
+Install the other dependencies on the container with:
 ```bash
-pip install -r requirements.txt
+pip install thop neuraloperator
 ```
-
-Note: The requirements.txt is configured for PyTorch 2.6+ with CUDA 12.6 support (supported by the recommended container). If you are using a different CUDA version, you may need to install PyTorch separately following the [official PyTorch installation guide](https://pytorch.org/get-started/locally/).
 
 ### Features
 
@@ -69,7 +67,8 @@ Note: The requirements.txt is configured for PyTorch 2.6+ with CUDA 12.6 support
 ### Usage
 
 ```bash
-python pytorch_training/main.py [train] [compile]
+cd training_pytorch
+python src/main.py [train] [compile]
 ```
 
 - `train` → Run training only
@@ -80,8 +79,8 @@ Model configurations and datasets are predefined in the script (see `MODELS_TO_T
 
 ### Outputs
 
-- Trained models saved in: `/workspace/models/`
-- Logs saved in: `/workspace/runs/`
+- Trained models saved in: `/workspace/training_pytorch/models/`
+- Logs saved in: `/workspace/training_pytorch/runs/`
 
 
 ## Compiling the C++ Inference Library
@@ -99,14 +98,14 @@ cmake ..
 make -j$(nproc)
 ```
 
-Note: The DeepRWCap binary expects `dnnsolver.so` to be in the `/workspace/deepRWCap_bin` directory. 
+Note: The DeepRWCap binary expects `dnnsolver.so` to be in the `/workspace/executable` directory. 
 
 ## DeepRWCap
 
 ### Setup 
 1. Activate the Singularity container. 
 
-2. Make sure that the `dnnsolver.so` and `models.txt` files are inside the `deepRWCap_bin` directory.
+2. Make sure that the `dnnsolver.so` and `models.txt` files are inside the `executable` directory.
 
 3. To ensure correct CUDA Stream synchronization, ensure the system is using a single GPU with `export CUDA_VISIBLE_DEVICES=0`.
 
@@ -114,10 +113,9 @@ Note: The DeepRWCap binary expects `dnnsolver.so` to be in the `/workspace/deepR
 
 To run a capacitance extraction task directly use:
 ```bash
-./bin/rwcap --walk-type SS -f <input_file.cap3d> -n <num_cores> [accuracy_options]
+./bin/rwcap -f <input_file.cap3d> -n <num_cores> [accuracy_options]
 ```
 Required Arguments:
-- `--walk-type SS`: Specifies the random walk algorithm
 - `-f <input_file.cap3d>`: Input file containing the 3D capacitance structure definition
 - `-n <num_cores>`: Number of CPU cores to use for parallel processing
 
@@ -128,7 +126,7 @@ Accuracy Control Options:
 
 Example:
 ```bash
-./bin/rwcap --walk-type SS -f /workspace/testcases/cap3d/case3.cap3d -n 16 -p 0.01 -c 0.01 --c-ratio 0.95
+./bin/rwcap -f /workspace/testcases/cap3d/case3.cap3d -n 16 -p 0.01 -c 0.01 --c-ratio 0.95
 ```
 Expected output files:
 - `case3.cap3d.out`: Capacitance extraction results
