@@ -14,20 +14,6 @@ int main() {
 
     DNNSolverGrad gradientSolver;
     gradientSolver.loadModels(true);
-    
-    // Structure file
-    int numSamples = 2;
-    std::string structureDataPath = "/workspace/datasets/example.structure";
-    std::vector<float> layerStructures;
-    std::vector<float> cuboidStructures;
-    greensSolver.readStructureFile(structureDataPath, layerStructures, cuboidStructures, numSamples, true);
-
-    // Sample Green's function
-    std::vector<float> greensSample = greensSolver.sample(layerStructures, cuboidStructures);
-
-    std::vector<float> gradSample = gradientSolver.sample(layerStructures, cuboidStructures, {0, 1, 2}); // Sample with axis
-
-    std::cout << "Sampled Green's function: " << greensSample << std::endl;
-    
+        
     return 0;
 }

@@ -1,7 +1,7 @@
 # Model configuration file
 # Format: path # description
-/workspace/models/BestModels20250715/GreensSelectorNoPESoftmax_tensorrt_fp16.jit # Greens face selector TensorRT fp16
-/workspace/models/BestModels20250715/TinyGreensReLUKL_tensorrt_fp16.jit # Tiny greens predictor TensorRT fp16
-/workspace/models/BestModels20250715/GradientSelectorNoPESoftmax0_tensorrt_fp16.jit # Gradient face selector weight predictor TensorRT fp16
-/workspace/models/BestModels20250715/Medium3Gradient2NormMSE_tensorrt_fp16.jit # Medium gradient face2 predictor TensorRT fp16
-/workspace/models/BestModels20250715/TinyGradient1NormMSE_tensorrt_fp16.jit # Tiny gradient face1 predictor TensorRT fp16
+/workspace/models/GreensSelectorNoPESoftmax_tensorrt_fp16.jit # Greens face selector TensorRT fp16
+/workspace/models/TinyGreensReLUKL_tensorrt_fp16.jit # Tiny greens predictor TensorRT fp16
+/workspace/models/GradientSelectorNoPESoftmax0_tensorrt_fp16.jit # Gradient face selector weight predictor TensorRT fp16
+/workspace/models/Medium3Gradient2NormMSE_tensorrt_fp16.jit # Medium gradient face2 predictor TensorRT fp16
+/workspace/models/TinyGradient1NormMSE_tensorrt_fp16.jit # Tiny gradient face1 predictor TensorRT fp16

@@ -241,7 +241,6 @@ def run_rwcap_analysis(n_runs, test_cases=['case1', 'case2'], n_cores=16):
                     "./bin/rwcap", "--walk-type", "SS", 
                     "-f", os.path.join(TESTCASE_FOLDER, f"{case}.cap3d"),
                     "-n", f"{n_cores}",
-                    "--table-online", "online-fdm"
                 ] + accuracy_setting.split(' ')
 
                 subprocess.run(command, capture_output=False, text=True)
