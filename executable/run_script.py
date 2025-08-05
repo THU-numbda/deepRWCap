@@ -238,7 +238,7 @@ def run_rwcap_analysis(n_runs, test_cases=['case1', 'case2'], n_cores=16):
             
             try:
                 command = [
-                    "./bin/rwcap", "--walk-type", "SS", 
+                    "./bin/rwcap", 
                     "-f", os.path.join(TESTCASE_FOLDER, f"{case}.cap3d"),
                     "-n", f"{n_cores}",
                 ] + accuracy_setting.split(' ')
