@@ -86,16 +86,16 @@ MODELS_TO_TRAIN = [
 # Dataset configurations
 DATASET_BASE_CONFIGS = {
     "greens_harder": {
-        "path": ["../ggft/dataset/poisson.bin"],
+        "path": ["/workspace/ggft/dataset/poisson.bin"],
         "input_mode": "dielectric",
         "N": 23,
         "n_structures": 16,
         "dtype": np.float64
     },
     "gradient_harder": {
-        "path": ["../ggft/dataset/gradient.bin"],
+        "path": ["/workspace/ggft/dataset/gradient.bin"],
         "input_mode": "dielectric",
-        "N": 23,
+        "N": 23,=
         "n_structures": 16,
         "dtype": np.float64
     }

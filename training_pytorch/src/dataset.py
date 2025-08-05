@@ -1,9 +1,3 @@
-"""
-green_dataset.py  •  2025-07-05  (struct-count patch)
-
-Specify `n_structures` at construction time instead of auto-inferring it.
-"""
-
 from __future__ import annotations
 import os, math, numpy as np, torch
 from torch.utils.data import Dataset

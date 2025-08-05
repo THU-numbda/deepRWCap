@@ -17,18 +17,20 @@ DeepRWCap is a machine learning-guided random walk solver that accelerates capac
 - CMake 3.18+
 - GCC/G++ compiler
 
-Containerized approach (recommended to run the container in shell mode with the `/workspace` binding):
+Containerized approach (run the container in shell mode with the `/workspace` binding):
 ```bash
 singularity pull pytorch-24.12-py3.sif docker://nvcr.io/nvidia/pytorch:24.12-py3
-singularity shell --nv --bind deepRWCap:/workspace pytorch-24.12-py3.sif
+singularity shell --nv --bind /path/to/deepRWCap:/workspace pytorch-24.12-py3.sif
 ```
 
-## Datasets
+Note: Replace `/path/to/deepRWCap` with the actual path to your repository directory. The bind mount makes the repository contents available inside the container at `/workspace`.
+
+## Python Training
+
+### Datasets
 
 > [!WARNING]
-> Only a subset of 100 samples for the Poisson Kernel [^1] and the Gradient Kernel is available. Check the [GGFT documentation](ggft/README.md) to generate larger datasets for model training.
-
-[^1]: The surface Green's function is equivalent to the Poisson kernel.
+> Check the [GGFT documentation](ggft/README.md) to generate the training datasets using a finite difference method for model training. Alternativelly, use the provided script `cd ggft` and `source run_ggft.sh`.
 
 Each dataset file is a binary file with the following format:
 **Header** (2 values):
@@ -40,9 +42,9 @@ Each sample contains:
 
 - Dielectric data: `N³` values representing the permittivity distribution
 - Structure data: `7 × n_structures` values (geometric structure parameters, unused)
-- Green's function/Gradient data: `6 × N²` values for the 6 faces of the cube
+- Poisson[^1]/Gradient data: `6 × N²` values for the 6 faces of the cube
 
-## Python Training
+[^1]: The surface Green's function is equivalent to the Poisson kernel.
 
 ### Setup
 
