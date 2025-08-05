@@ -26,7 +26,9 @@ singularity shell --nv --bind deepRWCap:/workspace pytorch-24.12-py3.sif
 ## Datasets
 
 > [!WARNING]
-> Only a subset of 100 samples is available. Check the [GGFT documentation](ggft/README.md) to generate larger datasets for model training.
+> Only a subset of 100 samples for the Poisson Kernel [^1] and the Gradient Kernel is available. Check the [GGFT documentation](ggft/README.md) to generate larger datasets for model training.
+
+[^1]: The surface Green's function is equivalent to the Poisson kernel.
 
 Each dataset file is a binary file with the following format:
 **Header** (2 values):
