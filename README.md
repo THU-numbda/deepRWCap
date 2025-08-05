@@ -17,7 +17,7 @@ DeepRWCap is a machine learning-guided random walk solver that accelerates capac
 - CMake 3.18+
 - GCC/G++ compiler
 
-Containerized approach (recommended to run the container in shell model with the `/workspace` binding):
+Containerized approach (recommended to run the container in shell mode with the `/workspace` binding):
 ```bash
 singularity pull pytorch-24.12-py3.sif docker://nvcr.io/nvidia/pytorch:24.12-py3
 singularity shell --nv --bind deepRWCap:/workspace pytorch-24.12-py3.sif
@@ -64,8 +64,6 @@ Note: The requirements.txt is configured for PyTorch 2.6+ with CUDA 12.6 support
 
 ### Usage
 
-Run from the command line:
-
 ```bash
 python pytorch_training/main.py [train] [compile]
 ```
@@ -86,7 +84,7 @@ Model configurations and datasets are predefined in the script (see `MODELS_TO_T
 
 The C++ backend provides high-performance inference using LibTorch and TensorRT with CUDA acceleration.
 
-__Build:__
+### Build
 The library for dynamic linking will be created in `inference_cpp/build/lib/dnnsolver.so`. 
 
 ```bash
@@ -96,8 +94,7 @@ cmake ..
 make -j$(nproc)
 ```
 
-
-__Model Selection:__
+### Model Selection
 The model paths are defined in `models.txt`. For example:
 ```bash
 # Model configuration file
@@ -110,7 +107,7 @@ The model paths are defined in `models.txt`. For example:
 /workspace/models/BestModels20250715/TinyGradient1NormMSE_tensorrt_fp16.jit # Tiny gradient face1 predictor TensorRT fp16
 ```
 
-Note: The DeepRWCap binary expects `dnnsolver.so` to be on the `deepRWCap` directory. 
+Note: The DeepRWCap binary expects `dnnsolver.so` to be in the `/workspace/deepRWCap` directory. 
 
 ## DeepRWCap
 
@@ -135,7 +132,7 @@ Required Arguments:
 Accuracy Control Options:
 - `-p <value>`: Convergence threshold for self-capacitance
 - `-c <value>`: Convergence threshold for capacitance matrix
-- `--c-ratio <value>`: Fraction of the capacitance matrix elements that must meed the convergence threshold.
+- `--c-ratio <value>`: Fraction of the capacitance matrix elements that must meet the convergence threshold.
 
 Example:
 ```bash
