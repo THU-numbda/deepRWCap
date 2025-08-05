@@ -1,5 +1,5 @@
 .vscode
 __pycache__
-models
-runs
+models*
+runs*
 dataset
