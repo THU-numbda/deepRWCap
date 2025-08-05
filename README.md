@@ -29,6 +29,11 @@ Note: Replace `/path/to/deepRWCap` with the actual path to your repository direc
 
 ### Datasets
 
+```bash
+cd ggft
+./run_ggft.sh
+```
+
 > [!WARNING]
 > Check the [GGFT documentation](ggft/README.md) to generate the training datasets using a finite difference method for model training. Alternativelly, use the provided script `cd ggft` and `source run_ggft.sh`.
 
@@ -53,9 +58,17 @@ Install the other dependencies on the container with:
 pip install thop neuraloperator
 ```
 
+### Usage
+
+```bash
+cd training_pytorch
+./run_training.sh # to train the models from scratch
+./run_compilation.sh # to compile with TensorRT and copy to `/workspace/models/`
+```
+
 ### Features
 
-`pytorch_training/main.py` manages training and optimization of the presented models using PyTorch and TensorRT.
+`training_pytorch/src/main.py` manages training and optimization of the presented models using PyTorch and TensorRT.
 
 - Trains multiple predefined models on GPU(s) with multiprocessing
 - Automatically measures FLOPs and parameter counts
@@ -64,10 +77,7 @@ pip install thop neuraloperator
 - Reports latency and throughput improvements after compilation
 
 
-### Usage
-
 ```bash
-cd training_pytorch
 python src/main.py [train] [compile]
 ```
 
