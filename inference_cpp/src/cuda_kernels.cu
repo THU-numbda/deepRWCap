@@ -296,7 +296,7 @@ void launch_locate_index_simple_kernel(
 }
 
 // Kernel for Green's function rotations using uint8_t face IDs
-__global__ void rotate_faces_greens_kernel(
+__global__ void rotate_faces_poisson_kernel(
     float* __restrict__ output,
     const float* __restrict__ input,
     const uint8_t* __restrict__ face_ids,     // Changed: [batch_size] with values 0-5 (or 255 for no transformation)
@@ -380,7 +380,7 @@ __global__ void rotate_faces_greens_kernel(
 }
 
 // NEW: Buffer-based launcher for Green's function rotation
-void launch_rotate_faces_greens_with_buffer(
+void launch_rotate_faces_poisson_with_buffer(
     torch::Tensor& output,     // Pre-allocated output buffer
     torch::Tensor& input,      // Input buffer
     torch::Tensor& face_ids) {
@@ -397,12 +397,12 @@ void launch_rotate_faces_greens_with_buffer(
     
     auto stream = c10::cuda::getCurrentCUDAStream(input.device().index());
     
-    rotate_faces_greens_kernel<<<blocks, threads_per_block, 0, stream>>>(
+    rotate_faces_poisson_kernel<<<blocks, threads_per_block, 0, stream>>>(
         output_ptr, input_ptr, face_ptr, B);
     
     cudaError_t err = cudaGetLastError();
     if (err != cudaSuccess) {
-        throw std::runtime_error("rotate_faces_greens_kernel failed: " + 
+        throw std::runtime_error("rotate_faces_poisson_kernel failed: " + 
                                 std::string(cudaGetErrorString(err)));
     }
 }

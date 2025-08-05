@@ -24,7 +24,7 @@ void locate_index_simple_launcher(
     torch::Tensor output);    // [B, 3], float32
 
 // Face rotation kernels for Green's function (buffer-based, returns slice)
-torch::Tensor rotate_faces_greens_launcher(
+torch::Tensor rotate_faces_poisson_launcher(
     torch::Tensor& output_buffer,    // Pre-allocated output buffer
     torch::Tensor& input,            // Input tensor
     torch::Tensor& face_ids);        // [batch_size], uint8

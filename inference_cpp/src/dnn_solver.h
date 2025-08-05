@@ -95,10 +95,10 @@ protected:
 };
 
 // Rest of the classes remain the same...
-class DNNSolverGreens : public DNNSolver {
+class DNNSolverPoisson : public DNNSolver {
 public:
     // Constructor
-    DNNSolverGreens(int device_idx = 0);
+    DNNSolverPoisson(int device_idx = 0);
 
     // Override virtual functions
     void loadModels(bool verbose = false) override;
@@ -118,7 +118,7 @@ private:
     torch::jit::script::Module greenPredictor;
 
     // Green's function specific inference functions
-    torch::Tensor sampleGreensFunction(torch::Tensor& dielectricTensor);
+    torch::Tensor samplePoissonFunction(torch::Tensor& dielectricTensor);
 };
 
 class DNNSolverGrad : public DNNSolver {

@@ -9,7 +9,7 @@ DeepRWCap is a machine learning-guided random walk solver that accelerates capac
 - [Datasets](#datasets)
 - [Python Training](#python-training)
 - [C++ Inference](#c-inference)
-- [DeepRWCap](#deepwrcap)
+- [DeepRWCap](#deeprwcap)
 
 ## Prerequisites
 - Python 3.10+
@@ -92,33 +92,21 @@ The C++ backend provides high-performance inference using LibTorch and TensorRT 
 The library for dynamic linking will be created in `inference_cpp/build/lib/dnnsolver.so`. 
 
 ```bash
+unset CUDACXX
 cd inference_cpp
 mkdir build && cd build
 cmake ..
 make -j$(nproc)
 ```
 
-### Model Selection
-The model paths are defined in `models.txt`. For example:
-```bash
-# Model configuration file
-# Format: path # description
-
-/workspace/models/BestModels20250715/GreensSelectorNoPESoftmax_tensorrt_fp16.jit # Greens face selector TensorRT fp16
-/workspace/models/BestModels20250715/TinyGreensReLUKL_tensorrt_fp16.jit # Tiny greens predictor TensorRT fp16
-/workspace/models/BestModels20250715/GradientSelectorNoPESoftmax0_tensorrt_fp16.jit # Gradient face selector weight predictor TensorRT fp16
-/workspace/models/BestModels20250715/Medium3Gradient2NormMSE_tensorrt_fp16.jit # Medium gradient face2 predictor TensorRT fp16
-/workspace/models/BestModels20250715/TinyGradient1NormMSE_tensorrt_fp16.jit # Tiny gradient face1 predictor TensorRT fp16
-```
-
-Note: The DeepRWCap binary expects `dnnsolver.so` to be in the `/workspace/deepRWCap` directory. 
+Note: The DeepRWCap binary expects `dnnsolver.so` to be in the `/workspace/deepRWCap_bin` directory. 
 
 ## DeepRWCap
 
 ### Setup 
 1. Activate the Singularity container. 
 
-2. Make sure that the `dnnsolver.so` and `models.txt` files are inside the `deepRWCap` directory.
+2. Make sure that the `dnnsolver.so` and `models.txt` files are inside the `deepRWCap_bin` directory.
 
 3. To ensure correct CUDA Stream synchronization, ensure the system is using a single GPU with `export CUDA_VISIBLE_DEVICES=0`.
 

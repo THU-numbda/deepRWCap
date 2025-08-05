@@ -4,11 +4,11 @@
 #include <thread>
 #include "cuda_kernels.h"
 
-DNNSolverGreens::DNNSolverGreens(int device_idx) : DNNSolver(device_idx) {
+DNNSolverPoisson::DNNSolverPoisson(int device_idx) : DNNSolver(device_idx) {
     // Constructor - base class handles device setup
 }
 
-void DNNSolverGreens::loadModels(bool verbose) {
+void DNNSolverPoisson::loadModels(bool verbose) {
     torch::InferenceMode guard;  // Enable inference mode for this method
     
     // Set current stream for all operations
@@ -32,7 +32,7 @@ void DNNSolverGreens::loadModels(bool verbose) {
     greenPredictor.eval();
 }
 
-std::vector<float> DNNSolverGreens::sample(const std::vector<float>& layerStructures,
+std::vector<float> DNNSolverPoisson::sample(const std::vector<float>& layerStructures,
                                            const std::vector<float>& cuboidStructures) {
     torch::InferenceMode guard;
     setCurrentStream();
@@ -41,7 +41,7 @@ std::vector<float> DNNSolverGreens::sample(const std::vector<float>& layerStruct
     auto [dielectricTensor, max_vals] = structureConstruction(layerStructures, cuboidStructures, batch_size, true);
     dielectricTensor = dielectricTensor.view({batch_size, 1, 1, N, N, N});
     
-    auto positions = sampleGreensFunction(dielectricTensor);
+    auto positions = samplePoissonFunction(dielectricTensor);
     
     // For better performance, consider pinned memory for the output
     auto cpu_positions = positions.to(torch::kCPU, /*non_blocking=*/true);
@@ -62,7 +62,7 @@ std::vector<float> DNNSolverGreens::sample(const std::vector<float>& layerStruct
     return vec;
 }
 
-std::vector<float> DNNSolverGreens::sample(const std::vector<float>& layerStructures, 
+std::vector<float> DNNSolverPoisson::sample(const std::vector<float>& layerStructures, 
                                           const std::vector<float>& cuboidStructures, 
                                           const std::vector<int>& axis) {
     torch::InferenceMode guard;  // Enable inference mode for this method
@@ -83,7 +83,7 @@ std::vector<float> DNNSolverGreens::sample(const std::vector<float>& layerStruct
     return sample(layerStructures, cuboidStructures);
 }
 
-torch::Tensor DNNSolverGreens::sampleGreensFunction(torch::Tensor& dielectricTensor) {
+torch::Tensor DNNSolverPoisson::samplePoissonFunction(torch::Tensor& dielectricTensor) {
 
     int batch_size = dielectricTensor.size(0);
     
@@ -94,19 +94,19 @@ torch::Tensor DNNSolverGreens::sampleGreensFunction(torch::Tensor& dielectricTen
     // Avoid intermediate view and type conversion - do it in one step
     auto selectedFacesUint8 = selectedFaceTensor.to(torch::kUInt8).view({-1});
     
-    // Greens function sampling - avoid redundant view at the end
-    auto rotated_tensor = rotate_faces_greens_launcher(dielectric_buffer_2_, 
+    // Poisson function sampling - avoid redundant view at the end
+    auto rotated_tensor = rotate_faces_poisson_launcher(dielectric_buffer_2_, 
                                                        dielectricTensor, 
                                                        selectedFacesUint8);
     
     // Pass the already correctly shaped tensor
-    auto greensFunction = greenPredictor.forward({rotated_tensor.view({batch_size, 1, 1, N, N, N})})
+    auto poissonFunction = greenPredictor.forward({rotated_tensor.view({batch_size, 1, 1, N, N, N})})
                                        .toTensor()
                                        .view({batch_size, NN});
     
-    auto sampleGreensFunctionTensor = torch::multinomial(greensFunction, 1, false)
+    auto samplePoissonFunctionTensor = torch::multinomial(poissonFunction, 1, false)
                                             .to(torch::kInt16)
                                             .view({-1});
     
-    return locate_index_simple_cuda_launcher(sampleGreensFunctionTensor, selectedFacesUint8);
+    return locate_index_simple_cuda_launcher(samplePoissonFunctionTensor, selectedFacesUint8);
 }

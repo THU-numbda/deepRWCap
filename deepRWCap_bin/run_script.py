@@ -243,7 +243,7 @@ def run_rwcap_analysis(n_runs, test_cases=['case1', 'case2'], n_cores=16):
                     "-n", f"{n_cores}",
                 ] + accuracy_setting.split(' ')
 
-                subprocess.run(command, capture_output=False, text=True)
+                subprocess.run(command, capture_output=True, text=True)
                 
                 if os.path.exists(output_file):
                     capmat, num_walks, hops_per_walk = parse_result(output_file)

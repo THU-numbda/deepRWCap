@@ -9,8 +9,8 @@ int main() {
     std::cout << "Torch version: " << TORCH_VERSION << std::endl;
 
     // Define Green's function sampler
-    DNNSolverGreens greensSolver;
-    greensSolver.loadModels(true);
+    DNNSolverPoisson poissonSolver;
+    poissonSolver.loadModels(true);
 
     DNNSolverGrad gradientSolver;
     gradientSolver.loadModels(true);

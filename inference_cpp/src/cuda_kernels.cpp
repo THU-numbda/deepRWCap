@@ -19,7 +19,7 @@ void launch_locate_index_simple_kernel(
    torch::Tensor faceIdx,
    torch::Tensor output);
 
-void launch_rotate_faces_greens_with_buffer(
+void launch_rotate_faces_poisson_with_buffer(
    torch::Tensor& output,
    torch::Tensor& input,
    torch::Tensor& face_ids);
@@ -111,7 +111,7 @@ void locate_index_simple_launcher(
 }
 
 // Green's function rotation with pre-allocated buffer (returns slice)
-torch::Tensor rotate_faces_greens_launcher(
+torch::Tensor rotate_faces_poisson_launcher(
    torch::Tensor& output_buffer,
    torch::Tensor& input,
    torch::Tensor& face_ids) {
@@ -134,7 +134,7 @@ torch::Tensor rotate_faces_greens_launcher(
    auto output_slice = output_buffer.slice(0, 0, batch_size);
    
    c10::cuda::set_device(device.index());
-   launch_rotate_faces_greens_with_buffer(output_slice, input, face_ids);
+   launch_rotate_faces_poisson_with_buffer(output_slice, input, face_ids);
    
    return output_slice;
 }
