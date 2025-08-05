@@ -197,7 +197,7 @@ def compute_error(mat, ref_mat):
     return abserr / abssum, selfcap_err
 
 
-def run_rwcap_analysis(n_runs, test_cases=['case1', 'case2'], n_cores=16):
+def run_rwcap_analysis(executable_path, n_runs, test_cases=['case1', 'case2'], n_cores=16):
     all_results = {}
     
     for case in test_cases:
@@ -238,7 +238,7 @@ def run_rwcap_analysis(n_runs, test_cases=['case1', 'case2'], n_cores=16):
             
             try:
                 command = [
-                    "./bin/rwcap", 
+                    executable_path,  # Changed from "./bin/rwcap" to use the parameter
                     "-f", os.path.join(TESTCASE_FOLDER, f"{case}.cap3d"),
                     "-n", f"{n_cores}",
                 ] + accuracy_setting.split(' ')
@@ -357,20 +357,21 @@ def run_rwcap_analysis(n_runs, test_cases=['case1', 'case2'], n_cores=16):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python3 rwcap_analysis.py <number_of_runs> [case1] [case2] ...")
+    if len(sys.argv) < 3:  # Changed from < 2 to < 3
+        print("Usage: python3 rwcap_analysis.py <executable_path> <number_of_runs> [case1] [case2] ...")
         sys.exit(1)
     
     try:
-        n_runs = int(sys.argv[1])
+        executable_path = sys.argv[1]  # New: Get executable path
+        n_runs = int(sys.argv[2])  # Changed from sys.argv[1] to sys.argv[2]
         if n_runs <= 0:
             raise ValueError("Number of runs must be positive")
 
         available_cases = [f.replace('.cap3d', '') for f in os.listdir(TESTCASE_FOLDER) if f.endswith('.cap3d')]
 
-        if len(sys.argv) > 2:
+        if len(sys.argv) > 3:  # Changed from > 2 to > 3
             test_cases = []
-            for case in sys.argv[2:]:
+            for case in sys.argv[3:]:  # Changed from sys.argv[2:] to sys.argv[3:]
                 if case == "all":
                     # Add all cases from case1 to case10
                     all_numbered_cases = [f"case{i}" for i in range(1, 11)]
@@ -390,7 +391,7 @@ if __name__ == "__main__":
         else:
             test_cases = available_cases
         
-        print(f"Running analysis for: {', '.join(test_cases)}")
+        print(f"Running analysis for: {', '.join(test_cases)} using executable: {executable_path}")
         
         # Define core counts to test
         core_counts = [16, 8, 4, 2, 1]
@@ -402,7 +403,7 @@ if __name__ == "__main__":
             print(f"STARTING ANALYSIS WITH {n_cores} CORES")
             print(f"{'='*80}")
             
-            results = run_rwcap_analysis(n_runs, test_cases, n_cores)
+            results = run_rwcap_analysis(executable_path, n_runs, test_cases, n_cores)  # Pass executable_path
             all_results_by_cores[n_cores] = results
 
             print(f"\n{'='*60}")
@@ -422,6 +423,7 @@ if __name__ == "__main__":
                 sum_f.write(f"Summary Table for {n_cores} cores\n")
                 sum_f.write("=" * 60 + "\n")
                 sum_f.write(f"Timestamp: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+                sum_f.write(f"Executable: {executable_path}\n")  # NEW: Add executable path to summary
                 sum_f.write(f"Total runs per case: {n_runs}\n")
                 sum_f.write(f"Test cases: {', '.join(test_cases)}\n\n")
                 sum_f.write(header + "\n")
@@ -565,6 +567,7 @@ if __name__ == "__main__":
             f.write("RWCap Core Scaling Analysis Results\n")
             f.write("=" * 60 + "\n")
             f.write(f"Timestamp: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+            f.write(f"Executable: {executable_path}\n")  # NEW: Add executable path to comprehensive summary
             f.write(f"Total runs per case/core combination: {n_runs}\n")
             f.write(f"Test cases: {', '.join(test_cases)}\n")
             f.write(f"Core counts tested: {', '.join(map(str, core_counts))}\n\n")

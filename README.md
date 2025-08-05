@@ -2,8 +2,6 @@
 
 DeepRWCap is a machine learning-guided random walk solver that accelerates capacitance extraction by predicting the transition quantities required to guide each step of the walk. This repository contains the implementation described in the paper "DeepRWCap: Neural-Guided Random-Walk Capacitance Solver for IC Design."
 
-![OVERVIEW](./figures/overview.png)
-
 ## Index
 - [Prerequisites](#prerequisites)
 - [Datasets](#datasets)
@@ -113,7 +111,7 @@ Note: The DeepRWCap binary expects `dnnsolver.so` to be in the `/workspace/execu
 
 To run a capacitance extraction task directly use:
 ```bash
-./bin/rwcap -f <input_file.cap3d> -n <num_cores> [accuracy_options]
+/path/to/binary -f <input_file.cap3d> -n <num_cores> [accuracy_options]
 ```
 Required Arguments:
 - `-f <input_file.cap3d>`: Input file containing the 3D capacitance structure definition
@@ -126,7 +124,7 @@ Accuracy Control Options:
 
 Example:
 ```bash
-./bin/rwcap -f /workspace/testcases/cap3d/case3.cap3d -n 16 -p 0.01 -c 0.01 --c-ratio 0.95
+./bin/deepRWCap -f /workspace/testcases/cap3d/case3.cap3d -n 16 -p 0.01 -c 0.01 --c-ratio 0.95
 ```
 Expected output files:
 - `case3.cap3d.out`: Capacitance extraction results
@@ -142,16 +140,17 @@ To replicate the capacitance extraction results from the paper use the python sc
 - **Error analysis**: Computes relative errors against reference solutions
 
 ```bash
-python run_script.py <number_of_runs> [test_cases...]
+python run_script.py /path/to/binary <number_of_runs> [test_cases...]
 ```
 
 Parameters:
+- `/path/to/binary`: `./bin/deepRWCap` for our method, `./baselines/rwcap_agf`, `./baselines/rwcap_microwalk`, or `./baselines/rwcap_agf` for other methods.
 - `<number_of_runs>`: Number of iterations per test case (e.g., 10)
 - `[test_cases...]`: Optional list of test cases (`case1`, `case2`, etc.) or `all` for all cases
 
 Example:
 
 ```bash
-python run_script.py 10 all
+python run_script.py ./bin/deepRWCap 10 all
 ```
 
