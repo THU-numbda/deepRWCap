@@ -1,6 +1,8 @@
 # DeepRWCap: Neural-Guided Random-Walk Capacitance Solver for IC Design
 
-DeepRWCap is a machine learning-guided random walk solver that accelerates capacitance extraction by predicting the transition quantities required to guide each step of the walk. This repository contains the implementation described in the paper "DeepRWCap: Neural-Guided Random-Walk Capacitance Solver for IC Design."
+DeepRWCap is a machine learning-guided random walk solver that accelerates capacitance extraction by predicting the transition quantities required to guide each step of the walk. This repository contains the implementation described in the paper:
+
+- Hector R. Rodriguez, Jiechen Huang, and Wenjian Yu, "DeepRWCap: Neural-guided random-walk capacitance solver for IC design," in Proc. the AAAI Conference on Artificial Intelligence (AAAI), Singapore, Jan. 2026.
 
 ## Index
 - [Prerequisites](#prerequisites)
